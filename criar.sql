@@ -43,24 +43,27 @@ CREATE TABLE Classificacao(
 );
 
 CREATE TABLE Jogo (
+    idJogo NUMERIC(4,0),
     numJornada NUMERIC(2, 0),
     equipaVisitante NUMERIC(2, 0),
     equipaVisitada NUMERIC(2, 0),
+    PRIMARY KEY(idJogo),
     FOREIGN KEY(numJornada) REFERENCES Jornada(num),
     FOREIGN KEY(equipaVisitante) REFERENCES Equipa(idEquipa),
     FOREIGN KEY(equipaVisitada) REFERENCES Equipa(idEquipa),
+    
 );
 
 CREATE TABLE Golo (
     minuto NUMERIC(3, 0),
     equipaMarcado NUMERIC(2, 0),
     equipaSofrido NUMERIC(2, 0),
-    numJornada NUMERIC(2, 0),
+    idJogo NUMERIC(4, 0),
     idJogador NUMERIC(2, 0),
     PRIMARY KEY(minuto),
     FOREIGN KEY(equipaMarcado) REFERENCES Equipa(idEquipa),
     FOREIGN KEY(equipaSofrido) REFERENCES Equipa(idEquipa),
-    FOREIGN KEY(numJornada) REFERENCES Jornada(num),
+    FOREIGN KEY(idJogo) REFERENCES Jogo(idJogo),
     FOREIGN KEY(idJogador) REFERENCES Jogador(idJogador),
 );
 
