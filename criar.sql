@@ -31,16 +31,16 @@ CREATE TABLE Jogador (
 CREATE TABLE Classificacao(
     idEquipa NUMERIC(2, 0),
     numJornada NUMERIC(2, 0),
-    pontos NUMERIC(3, 0), -- Talvez NOT NULL se o zero puder pertencer
-    posicao NUMERIC(2, 0) NOT NULL,
-    numJogos NUMERIC(2, 0), -- Igual aos pontos
+    pontos NUMERIC(3, 0), -- Talvez NOT NULL se o zero puder pertencer -- Necessário? Ou apenas numVitoria*3 + numEmpate
+    posicao NUMERIC(2, 0) NOT NULL, --Necessário? Ou podemos ordenar apenas (SELECT * FROM Classificacao WHERE numJornada=x ORDER BY pontos)
+    numJogos NUMERIC(2, 0), -- Igual aos pontos -- Necessário? Ou apenas somar numVitoria+numEmpate+numDerrota?
     numVitoria NUMERIC(2, 0), -- ^
     numEmpate NUMERIC(2, 0), -- ^
     numDerrota NUMERIC(2, 0), -- ^
-    tipoCondicao VARCHAR(2),
+    tipoCondicao VARCHAR(2), 
     FOREIGN KEY(idEquipa) REFERENCES Equipa(idEquipa),
     FOREIGN KEY(numJornada) REFERENCES Jornada(num),
-);
+); --será necessário? Ou podemos apenas calcular
 
 CREATE TABLE Jogo (
     idJogo NUMERIC(4,0),
@@ -58,7 +58,7 @@ CREATE TABLE Golo (
     idJogo NUMERIC(4, 0),
     minuto NUMERIC(3, 0),
     equipaMarcado NUMERIC(2, 0),
-    equipaSofrido NUMERIC(2, 0),
+    equipaSofrido NUMERIC(2, 0), --pode não ser necessário 
     idJogador NUMERIC(2, 0),
     PRIMARY KEY(minuto),
     FOREIGN KEY(equipaMarcado) REFERENCES Equipa(idEquipa),
