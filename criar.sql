@@ -10,9 +10,8 @@ DROP TABLE IF EXISTS Golo;
 -- Criar tabelas
 
 CREATE TABLE Equipa (
-    idEquipa INT,
+    idEquipa INT PRIMARY KEY AUTOINCREMENT,
     nome VARCHAR(25) NOT NULL,
-    PRIMARY KEY(idEquipa)
 );
 
 CREATE TABLE Jornada (
@@ -21,16 +20,15 @@ CREATE TABLE Jornada (
 );
 
 CREATE TABLE Jogador (
-    idJogador INT,
+    idJogador INT PRIMARY KEY AUTOINCREMENT,
     num INT,
     nome VARCHAR(25) NOT NULL,
-    idEquipa NUMERIC(2, 0) REFERENCES Equipa(idEquipa),
-    PRIMARY KEY(idJogador)
+    idEquipa INT REFERENCES Equipa(idEquipa),
 );
 
 CREATE TABLE Classificacao(
-    idEquipa INT,
-    numJornada INT,
+    idEquipa INT REFERENCES Equipa(idEquipa),
+    numJornada INT REFERENCES Jornada(num),
     pontos INT, -- Talvez NOT NULL se o zero puder pertencer -- Necessário? Ou apenas numVitoria*3 + numEmpate
     posicao INT NOT NULL, --Necessário? Ou podemos ordenar apenas (SELECT * FROM Classificacao WHERE numJornada=x ORDER BY pontos)
     numJogos INT, -- Igual aos pontos -- Necessário? Ou apenas somar numVitoria+numEmpate+numDerrota?
@@ -38,32 +36,20 @@ CREATE TABLE Classificacao(
     numEmpate INT, -- ^
     numDerrota INT, -- ^
     tipoCondicao VARCHAR(2), 
-    FOREIGN KEY(idEquipa) REFERENCES Equipa(idEquipa),
-    FOREIGN KEY(numJornada) REFERENCES Jornada(num)
 ); --será necessário? Ou podemos apenas calcular
 
 CREATE TABLE Jogo (
-    idJogo INT,
-    numJornada INT,
-    equipaVisitada INT,
-    equipaVisitante INT,
-    PRIMARY KEY(idJogo),
-    FOREIGN KEY(numJornada) REFERENCES Jornada(num),
-    FOREIGN KEY(equipaVisitante) REFERENCES Equipa(idEquipa),
-    FOREIGN KEY(equipaVisitada) REFERENCES Equipa(idEquipa)
-    
+    idJogo INT PRIMARY KEY AUTOINCREMENT,
+    numJornada INT REFERENCES Jornada(num),
+    equipaVisitada INT REFERENCES Equipa(idEquipa),
+    equipaVisitante INT REFERENCES Equipa(idEquipa),
 );
 
 CREATE TABLE Golo (
-    idJogo INT,
-    minuto INT,
-    equipaMarcado INT,
-    equipaSofrido INT, --pode não ser necessário 
-    idJogador INT,
-    PRIMARY KEY(minuto),
-    FOREIGN KEY(equipaMarcado) REFERENCES Equipa(idEquipa),
-    FOREIGN KEY(equipaSofrido) REFERENCES Equipa(idEquipa),
-    FOREIGN KEY(idJogo) REFERENCES Jogo(idJogo),
-    FOREIGN KEY(idJogador) REFERENCES Jogador(idJogador)
+    minuto INT PRIMARY KEY,
+    idJogo INT REFERENCES Jogo(idJogo),
+    equipaMarcado INT REFERENCES Equipa(idEquipa),
+    equipaSofrido INT REFERENCES Equipa(idEquipa), --pode não ser necessário 
+    idJogador INT REFERENCES Jogador(idJogador),
 );
 
