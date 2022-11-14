@@ -10,57 +10,46 @@ DROP TABLE IF EXISTS Golo;
 -- Criar tabelas
 
 CREATE TABLE Equipa (
-    idEquipa NUMERIC(2, 0),
+    idEquipa INT PRIMARY KEY AUTOINCREMENT,
     nome VARCHAR(25) NOT NULL,
-    PRIMARY KEY(idEquipa),
 );
 
 CREATE TABLE Jornada (
-    num NUMERIC(2, 0),
+    num INT,
     PRIMARY KEY(num)
 );
 
 CREATE TABLE Jogador (
-    idJogador NUMERIC(3, 0),
-    num NUMERIC(2, 0),
+    idJogador INT PRIMARY KEY AUTOINCREMENT,
+    num INT,
     nome VARCHAR(25) NOT NULL,
-    idEquipa NUMERIC(2, 0) REFERENCES Equipa(idEquipa),
-    PRIMARY KEY(idJogador),
+    idEquipa INT REFERENCES Equipa(idEquipa),
 );
 
 CREATE TABLE Classificacao(
-    idEquipa NUMERIC(2, 0),
-    numJornada NUMERIC(2, 0),
-    pontos NUMERIC(3, 0), -- Talvez NOT NULL se o zero puder pertencer
-    posicao NUMERIC(2, 0) NOT NULL,
-    numJogos NUMERIC(2, 0), -- Igual aos pontos
-    numVitoria NUMERIC(2, 0), -- ^
-    numEmpate NUMERIC(2, 0), -- ^
-    numDerrota NUMERIC(2, 0), -- ^
-    tipoCondicao VARCHAR(2),
-    FOREIGN KEY(idEquipa) REFERENCES Equipa(idEquipa),
-    FOREIGN KEY(numJornada) REFERENCES Jornada(num),
-);
+    idEquipa INT REFERENCES Equipa(idEquipa),
+    numJornada INT REFERENCES Jornada(num),
+    pontos INT, -- Talvez NOT NULL se o zero puder pertencer -- Necessário? Ou apenas numVitoria*3 + numEmpate
+    posicao INT NOT NULL, --Necessário? Ou podemos ordenar apenas (SELECT * FROM Classificacao WHERE numJornada=x ORDER BY pontos)
+    numJogos INT, -- Igual aos pontos -- Necessário? Ou apenas somar numVitoria+numEmpate+numDerrota?
+    numVitoria INT, -- ^
+    numEmpate INT, -- ^
+    numDerrota INT, -- ^
+    tipoCondicao VARCHAR(2), 
+); --será necessário? Ou podemos apenas calcular
 
 CREATE TABLE Jogo (
-    numJornada NUMERIC(2, 0),
-    equipaVisitante NUMERIC(2, 0),
-    equipaVisitada NUMERIC(2, 0),
-    FOREIGN KEY(numJornada) REFERENCES Jornada(num),
-    FOREIGN KEY(equipaVisitante) REFERENCES Equipa(idEquipa),
-    FOREIGN KEY(equipaVisitada) REFERENCES Equipa(idEquipa),
+    idJogo INT PRIMARY KEY AUTOINCREMENT,
+    numJornada INT REFERENCES Jornada(num),
+    equipaVisitada INT REFERENCES Equipa(idEquipa),
+    equipaVisitante INT REFERENCES Equipa(idEquipa),
 );
 
 CREATE TABLE Golo (
-    minuto NUMERIC(3, 0),
-    equipaMarcado NUMERIC(2, 0),
-    equipaSofrido NUMERIC(2, 0),
-    numJornada NUMERIC(2, 0),
-    idJogador NUMERIC(2, 0),
-    PRIMARY KEY(minuto),
-    FOREIGN KEY(equipaMarcado) REFERENCES Equipa(idEquipa),
-    FOREIGN KEY(equipaSofrido) REFERENCES Equipa(idEquipa),
-    FOREIGN KEY(numJornada) REFERENCES Jornada(num),
-    FOREIGN KEY(idJogador) REFERENCES Jogador(idJogador),
+    minuto INT PRIMARY KEY,
+    idJogo INT REFERENCES Jogo(idJogo),
+    equipaMarcado INT REFERENCES Equipa(idEquipa),
+    equipaSofrido INT REFERENCES Equipa(idEquipa), --pode não ser necessário 
+    idJogador INT REFERENCES Jogador(idJogador),
 );
 
