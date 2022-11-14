@@ -1,22 +1,22 @@
 INSERT INTO Equipa (nome) VALUES
-    ('SL Benfica'),
-    ('FC Porto'),
-    ('SC Braga'),
-    ('CD Tondela'),
-    ('Sporting CP'),
-    ('Vitoria SC'),
-    ('Portimonense SC'),
-    ('Arouca FC'),
-    ('Gil Vicente FC'),
-    ('Boavista FC'),
-    ('GD Estoril Praia'),
-    ('Moreirense FC'),
-    ('FC Vizela'),
-    ('FC Famalicao'),
-    ('CD Santa Clara'),
-    ('B SAD'),
-    ('CS Maritimo'),
-    ('FC Pacos de Ferreira');
+    ('SL Benfica'),             -- 1
+    ('FC Porto'),               -- 2
+    ('SC Braga'),               -- 3
+    ('CD Tondela'),             -- 4
+    ('Sporting CP'),            -- 5
+    ('Vitoria SC'),             -- 6
+    ('Portimonense SC'),        -- 7
+    ('Arouca FC'),              -- 8
+    ('Gil Vicente FC'),         -- 9
+    ('Boavista FC'),            -- 10
+    ('GD Estoril Praia'),       -- 11
+    ('Moreirense FC'),          -- 12
+    ('FC Vizela'),              -- 13
+    ('FC Famalicao'),           -- 14
+    ('CD Santa Clara'),         -- 15
+    ('B SAD'),                  -- 16
+    ('CS Maritimo'),            -- 17
+    ('FC Pacos de Ferreira');   -- 18
 
 INSERT INTO Jornada (num) VALUES
     (1),
