@@ -1,4 +1,4 @@
-PRAGMA foreign_keys=ON
+PRAGMA foreign_keys=ON;
 
 INSERT INTO Equipa (nome) VALUES
     ('SL Benfica'),             -- 1
