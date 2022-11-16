@@ -11,35 +11,35 @@ DROP TABLE IF EXISTS Golo;
 
 CREATE TABLE Equipa (
     idEquipa INT PRIMARY KEY AUTOINCREMENT,
-    nome VARCHAR(25) NOT NULL,
+    nome VARCHAR(50) NOT NULL,
 );
 
 CREATE TABLE Jornada (
-    num INT,
-    PRIMARY KEY(num)
+    num INT PRIMARY KEY,
 );
 
 CREATE TABLE Jogador (
     idJogador INT PRIMARY KEY AUTOINCREMENT,
     num INT,
-    nome VARCHAR(25) NOT NULL,
+    nome VARCHAR(50) NOT NULL,
     idEquipa INT REFERENCES Equipa(idEquipa),
 );
 
 CREATE TABLE Classificacao(
     idEquipa INT REFERENCES Equipa(idEquipa),
     numJornada INT REFERENCES Jornada(num),
-    pontos INT, -- Talvez NOT NULL se o zero puder pertencer -- Necessário? Ou apenas numVitoria*3 + numEmpate
-    posicao INT NOT NULL, --Necessário? Ou podemos ordenar apenas (SELECT * FROM Classificacao WHERE numJornada=x ORDER BY pontos)
-    numJogos INT, -- Igual aos pontos -- Necessário? Ou apenas somar numVitoria+numEmpate+numDerrota?
-    numVitoria INT, -- ^
-    numEmpate INT, -- ^
-    numDerrota INT, -- ^
+    pontos INT NOT NULL,
+    posicao INT NOT NULL,
+    numJogos INT NOT NULL,
+    numVitoria INT NOT NULL,
+    numEmpate INT NOT NULL,
+    numDerrota INT NOT NULL,
     tipoCondicao VARCHAR(2), 
-); --será necessário? Ou podemos apenas calcular
+);
 
 CREATE TABLE Jogo (
     idJogo INT PRIMARY KEY AUTOINCREMENT,
+    vencedor INT REFERENCES Equipa(idEquipa),
     numJornada INT REFERENCES Jornada(num),
     equipaVisitada INT REFERENCES Equipa(idEquipa),
     equipaVisitante INT REFERENCES Equipa(idEquipa),
@@ -48,8 +48,7 @@ CREATE TABLE Jogo (
 CREATE TABLE Golo (
     minuto INT PRIMARY KEY,
     idJogo INT REFERENCES Jogo(idJogo),
-    equipaMarcado INT REFERENCES Equipa(idEquipa),
-    equipaSofrido INT REFERENCES Equipa(idEquipa), --pode não ser necessário 
+    equipaMarc INT REFERENCES Equipa(idEquipa),
     idJogador INT REFERENCES Jogador(idJogador),
 );
 

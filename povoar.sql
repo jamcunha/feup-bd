@@ -65,28 +65,28 @@ INSERT INTO Jogo (numJornada, equipaVisitada, equipaVisitante) VALUES
     (1,'FC Pacos de Ferreira','FC Famalicao'),
     (1,'Gil Vicente FC','Boavista FC'); //Apenas a primeira jornada
 
-INSERT INTO Golo (idJogo, minuto, equipaMarcado, equipaSofrido, numJogador) VALUES
-    (1,48,'Sporting CP','Gil Vicente FC',),
-    (1,64,'Sporting CP','Gil Vicente FC',),
-    (1,74,'Sporting CP','Gil Vicente FC',),
-    (2,4,'GD Estoril Praia','FC Arouca',),
-    (2,96,'GD Estoril Praia','FC Arouca',),
-    (3,8,'SL Benfica','Moreirense FC',),
-    (3,19,'SL Benfica','Moreirense FC',),
-    (3,30,'Moreirense FC','SL Benfica',),
-    (4,61,'SC Braga','CS Maritimo',),
-    (4,69,'SC Braga','CS Maritimo',),
-    (5,18,'CD Tondela','CD Santa Clara',),
-    (5,54,'CD Tondela','CD Santa Clara',),
-    (5,84,'CD Tondela','CD Santa Clara',),
-    (6,86,'Vitoria SC','Portimonense SC',),
-    (7,19,'FC Porto','B SAD',),
-    (7,65,'FC Porto','B SAD',),
-    (8,49,'FC Pacos Ferreira','FC Famalicao',),
-    (8,50,'FC Pacos Ferreira','FC Famalicao',),
-    (9,3,'Gil Vicente FC','Boavista FC',),
-    (9,24,'Gil Vicente FC','Boavista FC',),
-    (9,56,'Gil Vicente FC','Boavista FC',); //Faltam os ids
+INSERT INTO Golo (idJogo, minuto, equipaMarc, numJogador) VALUES
+    (1,48,'Sporting CP',),
+    (1,64,'Sporting CP',),
+    (1,74,'Sporting CP',),
+    (2,4,'GD Estoril Praia',),
+    (2,96,'GD Estoril Praia',),
+    (3,8,'SL Benfica',),
+    (3,19,'SL Benfica',),
+    (3,30,'Moreirense FC',),
+    (4,61,'SC Braga',),
+    (4,69,'SC Braga',),
+    (5,18,'CD Tondela',),
+    (5,54,'CD Tondela',),
+    (5,84,'CD Tondela',),
+    (6,86,'Vitoria SC',),
+    (7,19,'FC Porto',),
+    (7,65,'FC Porto',),
+    (8,49,'FC Pacos Ferreira',),
+    (8,50,'FC Pacos Ferreira',),
+    (9,3,'Gil Vicente FC',),
+    (9,24,'Gil Vicente FC',),
+    (9,56,'Gil Vicente FC',); //Faltam os ids
 
 --SL Benfica--
 
