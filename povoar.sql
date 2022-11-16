@@ -1,3 +1,5 @@
+PRAGMA foreign_keys=ON
+
 INSERT INTO Equipa (nome) VALUES
     ('SL Benfica'),             -- 1
     ('FC Porto'),               -- 2
