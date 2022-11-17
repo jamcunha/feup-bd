@@ -21,7 +21,7 @@ CREATE TABLE Jornada (
 CREATE TABLE Jogador (
     idJogador INT PRIMARY KEY AUTOINCREMENT,
     num INT,
-    nome VARCHAR(50) NOT NULL,
+    nome VARCHAR(25) NOT NULL,
     idEquipa INT REFERENCES Equipa(idEquipa),
 );
 
