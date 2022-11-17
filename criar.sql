@@ -28,7 +28,7 @@ CREATE TABLE Jogador (
 CREATE TABLE Classificacao(
     idEquipa INTEGER REFERENCES Equipa(idEquipa),
     numJornada INTEGER REFERENCES Jornada(num) CHECK(numJornada > 0 AND numJornada <= 34),
-    pontos INTEGER NOT NULL CHECK(pontos >= 0),
+    pontos INTEGER NOT NULL CHECK(pontos >= 0 AND pontos = 3*numVitoria + numEmpate),
     posicao INTEGER NOT NULL CHECK(posicao >= 1 AND posicao <= 18),
     numJogos INTEGER NOT NULL CHECK(numJogos >= 1 AND numJogos <= 34 AND numJogos = numVitoria + numEmpate + numDerrota),
     numVitoria INTEGER NOT NULL CHECK(numVitoria >= 0 AND numVitoria <= numJogos - numEmpate - numDerrota),
