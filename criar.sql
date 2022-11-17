@@ -30,7 +30,7 @@ CREATE TABLE Classificacao(
     numJornada INTEGER REFERENCES Jornada(num) CHECK(numJornada > 0 AND numJornada <= 34),
     pontos INTEGER NOT NULL CHECK(pontos >= 0 AND pontos = 3*numVitoria + numEmpate),
     posicao INTEGER NOT NULL CHECK(posicao >= 1 AND posicao <= 18),
-    numJogos INTEGER NOT NULL CHECK(numJogos >= 1 AND numJogos <= 34 AND numJogos = numVitoria + numEmpate + numDerrota),
+    numJogos INTEGER NOT NULL CHECK(numJogos >= 0 AND numJogos <= 34 AND numJogos = numVitoria + numEmpate + numDerrota),
     numVitoria INTEGER NOT NULL CHECK(numVitoria >= 0 AND numVitoria <= numJogos - numEmpate - numDerrota),
     numEmpate INTEGER NOT NULL CHECK(numEmpate >= 0 AND numEmpate <= numJogos - numVitoria - numDerrota),
     numDerrota INTEGER NOT NULL CHECK(numDerrota >= 0 AND numDerrota <= numJogos - numVitoria - numEmpate),
@@ -46,7 +46,8 @@ CREATE TABLE Jogo (
 );
 
 CREATE TABLE Golo (
-    minuto INTEGER PRIMARY KEY CHECK(minuto > 0),
+    idGolo INTEGER PRIMARY KEY AUTOINCREMENT,
+    minuto INTEGER CHECK(minuto > 0),
     idJogo INTEGER REFERENCES Jogo(idJogo),
     equipaMarc INTEGER REFERENCES Equipa(idEquipa),
     idJogador INTEGER REFERENCES Jogador(idJogador)

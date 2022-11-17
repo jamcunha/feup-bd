@@ -3,5 +3,5 @@ Jornada(PK: num)
 Jogador(PK: idJogador, num, nome, idEquipa -> Equipa)
 Classificacao(FK: idEquipa -> Equipa, FK: numJornada -> Jornada, pontos, posicao, numJogos, numVitoria, numEmpate, numDerrota, tipoCondicao)
 Jogo(PK: idJogo,numJornada -> Jornada, equipaVisitante -> Equipa, equipaVisitada -> Equipa, vencedor -> Equipa)
-Golo(PK: minuto, FK: idJogo -> Jogo, FK: idJogador -> Jogador, equipaMarc -> Equipa)
+Golo(PK: idGolo, minuto, idJogo -> Jogo, idJogador -> Jogador, equipaMarc -> Equipa)
 
