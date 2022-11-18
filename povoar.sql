@@ -839,7 +839,7 @@ INSERT INTO Jogador(num, nome, idEquipa) VALUES
    (6, "Filipe Cardoso",17),
    (15, "Iván Rossi",17), --630
    (16, "Diogo Mendes",17),
-   (60, "Pedro Pelágio"),17,
+   (60, "Pedro Pelágio", 17),
    (8, "Rafik Guitane",17),
    (10, "Stefano Beltrame",17),
    (17, "Bruno Xadas",17),
