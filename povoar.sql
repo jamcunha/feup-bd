@@ -65,7 +65,7 @@ INSERT INTO Jogo (numJornada, equipaVisitada, equipaVisitante) VALUES
     (1,6,7), -- Vitoria SC | Portimonense SC
     (1,2,16), -- FC Porto | B SAD
     (1,18,14), -- FC Pacos de Ferreira | FC Famalicao
-    (1,9,10); -- Gil Vicente FC | Boavista FC
+    (1,9,10), -- Gil Vicente FC | Boavista FC
     -- primeira jornada
     (2,11,6), -- GD Estoril Praia | Vitoria SC
     (2,13,4), -- FC Vizela | CD Tondela
@@ -87,25 +87,25 @@ INSERT INTO Jogo (numJornada, equipaVisitada, equipaVisitante) VALUES
     (3,18,11), -- Fc Pacos Ferreira | GD Estoril Praia
     (3,10,15), -- Boavista FC | CD Santa CLara
     -- terceira jornada
-    (4,16,12) -- B SAD | Moreirense FC
-    (4,11,17) -- GD Estoril Praia | CS Maritimo
-    (4,13,10) -- FC Vizela | Boavista FC
-    (4,2,8) -- FC Porto | Arouca FC
-    (4,14,5) -- FC Famalicao | Sporting CP
-    (4,1,4) -- SL Benfica | CD Tondela
-    (4,3,6) -- SC Braga | Vitoria SC
-    (4,7,18) -- Portimonese SC | FC Pacos de Ferreira
-    (4,15,9) -- CD Santa Clara | Gil Vicente FC
+    (4,16,12), -- B SAD | Moreirense FC
+    (4,11,17), -- GD Estoril Praia | CS Maritimo
+    (4,13,10), -- FC Vizela | Boavista FC
+    (4,2,8), -- FC Porto | Arouca FC
+    (4,14,5), -- FC Famalicao | Sporting CP
+    (4,1,4), -- SL Benfica | CD Tondela
+    (4,3,6), -- SC Braga | Vitoria SC
+    (4,7,18), -- Portimonese SC | FC Pacos de Ferreira
+    (4,15,9), -- CD Santa Clara | Gil Vicente FC
     -- quarta jornada
-    (5,18,4) -- FC Pacos de Ferreira | SC Braga
-    (5,15,1) -- CD Santa Clara | SL Benfica
-    (5,5,2) -- Sporting CP | FC Porto
-    (5,12,14) -- Moreirense FC | FC Famalicao
-    (5,10,7) -- Boavista FC | POrtimonese SC
-    (5,9,13) -- Gil Vicente FC | FC Vizela
-    (5,6,16) -- Vitoria SC | B SAD
-    (5,17,8) -- CS Maritimo | Arouca FC
-    (5,4,11) -- CD Tondela | GD Estoril Praia
+    (5,18,4), -- FC Pacos de Ferreira | SC Braga
+    (5,15,1), -- CD Santa Clara | SL Benfica
+    (5,5,2), -- Sporting CP | FC Porto
+    (5,12,14), -- Moreirense FC | FC Famalicao
+    (5,10,7), -- Boavista FC | POrtimonese SC
+    (5,9,13), -- Gil Vicente FC | FC Vizela
+    (5,6,16), -- Vitoria SC | B SAD
+    (5,17,8), -- CS Maritimo | Arouca FC
+    (5,4,11); -- CD Tondela | GD Estoril Praia
     -- quinta jornada
  
 

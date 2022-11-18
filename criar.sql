@@ -35,7 +35,8 @@ CREATE TABLE Classificacao(
     numEmpate INTEGER NOT NULL CHECK(numEmpate >= 0 AND numEmpate <= numJogos - numVitoria - numDerrota),
     numDerrota INTEGER NOT NULL CHECK(numDerrota >= 0 AND numDerrota <= numJogos - numVitoria - numEmpate),
     diferencaGolos INTEGER NOT NULL,
-    tipoCondicao VARCHAR(2), -- Condicoes depois nos triggers
+    tipoCondicao VARCHAR(4) CHECK(tipoCondicao = "LCFG" OR tipoCondicao = "LCTE" OR tipoCondicao = "CLTE"
+        OR tipoCondicao = "CLSE" OR tipoCondicao = "DPPO" OR tipoCondicao = "DPDI"),
     CONSTRAINT pk_equipa_jornada PRIMARY KEY(idEquipa, numJornada)
 );
 
