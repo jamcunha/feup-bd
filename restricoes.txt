@@ -30,6 +30,7 @@ Restrições Classificação
     O número de empates tem de ser maior que zero e igual à subtração do número de jogos com o número de vitórias e o número de derrotas (numEmpate CHECK)
     Uma classificação um número de derrotas associada (numDerrota NOT NULL)
     O número de derrotas tem de ser maior que zero e igual à subtração do número de jogos com o número de vitórias e o número de empates (numDerrota CHECK)
+    Uma classificação tem uma diferenca de golos associada (diferencaGolos NOT NULL)
 
 Restições Jogo
     Não pode haver dois jogos com o mesmo ID (idJogo PRIMARY KEY)

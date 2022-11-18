@@ -34,6 +34,7 @@ CREATE TABLE Classificacao(
     numVitoria INTEGER NOT NULL CHECK(numVitoria >= 0 AND numVitoria <= numJogos - numEmpate - numDerrota),
     numEmpate INTEGER NOT NULL CHECK(numEmpate >= 0 AND numEmpate <= numJogos - numVitoria - numDerrota),
     numDerrota INTEGER NOT NULL CHECK(numDerrota >= 0 AND numDerrota <= numJogos - numVitoria - numEmpate),
+    diferencaGolos INTEGER NOT NULL
     tipoCondicao VARCHAR(2) -- Condicoes depois nos triggers
 );
 
