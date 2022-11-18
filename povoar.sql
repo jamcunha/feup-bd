@@ -109,7 +109,7 @@ INSERT INTO Jogo (numJornada, equipaVisitada, equipaVisitante) VALUES
     -- quinta jornada
  
 
-INSERT INTO Golo (idJogo, minuto, equipaMarc, numJogador) VALUES
+INSERT INTO Golo (idJogo, minuto, equipaMarc, idJogador) VALUES
     (1,48,5,192), -- Sporting CP | Pedro Goncalves
     (1,64,5,192), -- Sporting CP | Pedro Goncalves
     (1,74,5,189), -- Sporting CP | Paulinho
@@ -256,8 +256,8 @@ INSERT INTO Jogador(num, nome, idEquipa) VALUES
    (22, "Chiquinho",3),
    (56, "Eduardo Schürrle",3),
    (10, "André Horta",3),
-   (25, "Lucas Mineiro"),
-   (27, "Fransérgio"),
+   (25, "Lucas Mineiro", 3),
+   (27, "Fransérgio", 3),
    (79, "Berna Couto",3),
    (88, "André Castro",3),
    (9, "Abel Ruiz",3),
