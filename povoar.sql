@@ -109,28 +109,7 @@ INSERT INTO Jogo (numJornada, equipaVisitada, equipaVisitante) VALUES
     -- quinta jornada
  
 
-INSERT INTO Golo (idJogo, minuto, equipaMarc, numJogador) VALUES
-    (1,48,5,192), -- Sporting CP | Pedro Goncalves
-    (1,64,5,192), -- Sporting CP | Pedro Goncalves
-    (1,74,5,189), -- Sporting CP | Paulinho
-    (2,4,11,407), -- GD Estoril Praia | Andre Franco
-    (2,96,11,422), -- GD Estoril Praia | Meshino
-    (3,8,1,7), -- SL Benfica | Lucas Verissimo
-    (3,19,1,27), -- SL Benfica | Luca Waldschmidt 
-    (3,30,12,451), -- Moreirense | Rafael Martins
-    (4,61,3,99), -- SC Braga | Raul Silva
-    (4,69,3,121), -- SC Braga | Ricardo Horta
-    (5,18,4,165), -- CD Tondela | Daniel dos Anjos
-    (5,54,4,165), -- CD Tondela | Daniel dos Anjos
-    (5,84,4,155), -- CD Tondela | Joao Pedro
-    (6,86,7,271), -- Portimonense SC | Beto 
-    (7,19,2,76), -- FC Porto | Toni Martinez
-    (7,65,2,80), -- FC Porto | Luis Diaz
-    (8,49,18,685), -- FC Pacos Ferreira | Lucas Silva
-    (8,50,18,672), -- FC Pacos Ferreira | Nuno Santos
-    (9,3,9,340), -- Gil Vicente FC | Fran Navarro
-    (9,24,9,340), -- Gil Vicente FC | Fran Navarro
-    (9,56,9,347); -- Gil Vicente FC | Samuel Lino
+
 
 --SL Benfica--
 
@@ -256,8 +235,8 @@ INSERT INTO Jogador(num, nome, idEquipa) VALUES
    (22, "Chiquinho",3),
    (56, "Eduardo Schürrle",3),
    (10, "André Horta",3),
-   (25, "Lucas Mineiro"),
-   (27, "Fransérgio"),
+   (25, "Lucas Mineiro",3),
+   (27, "Fransérgio",3),
    (79, "Berna Couto",3),
    (88, "André Castro",3),
    (9, "Abel Ruiz",3),
@@ -839,7 +818,7 @@ INSERT INTO Jogador(num, nome, idEquipa) VALUES
    (6, "Filipe Cardoso",17),
    (15, "Iván Rossi",17), --630
    (16, "Diogo Mendes",17),
-   (60, "Pedro Pelágio"),17,
+   (60, "Pedro Pelágio",17),
    (8, "Rafik Guitane",17),
    (10, "Stefano Beltrame",17),
    (17, "Bruno Xadas",17),
@@ -898,3 +877,26 @@ INSERT INTO Jogador(num, nome, idEquipa) VALUES
    (9, "Uilton Silva",18),
    (23, "Lucas Silva",18),
    (31, "Guilherme Pio",18);
+   
+INSERT INTO Golo (idJogo, minuto, equipaMarc, idJogador) VALUES
+    (1,48,5,192), -- Sporting CP | Pedro Goncalves
+    (1,64,5,192), -- Sporting CP | Pedro Goncalves
+    (1,74,5,189), -- Sporting CP | Paulinho
+    (2,4,11,407), -- GD Estoril Praia | Andre Franco
+    (2,96,11,422), -- GD Estoril Praia | Meshino
+    (3,8,1,7), -- SL Benfica | Lucas Verissimo
+    (3,19,1,27), -- SL Benfica | Luca Waldschmidt 
+    (3,30,12,451), -- Moreirense | Rafael Martins
+    (4,61,3,99), -- SC Braga | Raul Silva
+    (4,69,3,121), -- SC Braga | Ricardo Horta
+    (5,18,4,165), -- CD Tondela | Daniel dos Anjos
+    (5,54,4,165), -- CD Tondela | Daniel dos Anjos
+    (5,84,4,155), -- CD Tondela | Joao Pedro
+    (6,86,7,271), -- Portimonense SC | Beto 
+    (7,19,2,76), -- FC Porto | Toni Martinez
+    (7,65,2,80), -- FC Porto | Luis Diaz
+    (8,49,18,685), -- FC Pacos Ferreira | Lucas Silva
+    (8,50,18,672), -- FC Pacos Ferreira | Nuno Santos
+    (9,3,9,340), -- Gil Vicente FC | Fran Navarro
+    (9,24,9,340), -- Gil Vicente FC | Fran Navarro
+    (9,56,9,347); -- Gil Vicente FC | Samuel Lino
