@@ -107,9 +107,6 @@ INSERT INTO Jogo (numJornada, equipaVisitada, equipaVisitante) VALUES
     (5,17,8), -- CS Maritimo | Arouca FC
     (5,4,11); -- CD Tondela | GD Estoril Praia
     -- quinta jornada
- 
-
-
 
 --SL Benfica--
 
@@ -235,8 +232,8 @@ INSERT INTO Jogador(num, nome, idEquipa) VALUES
    (22, "Chiquinho",3),
    (56, "Eduardo Schürrle",3),
    (10, "André Horta",3),
-   (25, "Lucas Mineiro",3),
-   (27, "Fransérgio",3),
+   (25, "Lucas Mineiro", 3),
+   (27, "Fransérgio", 3),
    (79, "Berna Couto",3),
    (88, "André Castro",3),
    (9, "Abel Ruiz",3),
@@ -818,7 +815,7 @@ INSERT INTO Jogador(num, nome, idEquipa) VALUES
    (6, "Filipe Cardoso",17),
    (15, "Iván Rossi",17), --630
    (16, "Diogo Mendes",17),
-   (60, "Pedro Pelágio",17),
+   (60, "Pedro Pelágio", 17),
    (8, "Rafik Guitane",17),
    (10, "Stefano Beltrame",17),
    (17, "Bruno Xadas",17),
