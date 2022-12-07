@@ -57,7 +57,7 @@ INSERT INTO Jornada (num) VALUES
     (34);
 
 INSERT INTO Jogo (numJornada, equipaVisitada, equipaVisitante) VALUES
-    (1,5,13), -- Sporting CP | FC Visela
+    (1,5,13), -- Sporting CP | FC Vizela
     (1,8,11), -- Arouca FC | GD Estoril Praia
     (1,12,1), -- Moreirense FC | SL Benfica
     (1,17,3), -- CS Maritimo | SC Braga
@@ -247,8 +247,8 @@ INSERT INTO Jogador(num, nome, idEquipa) VALUES
    (96, "Miguel Falé",3),
    (26, "Fábio Martins",3),
    (40, "do Sul Kodisang",3),
-   (57, "Rodrigo Gomes",3), --130
-   (78, "Roger Fernandes",3),
+   (57, "Rodrigo Gomes",3), 
+   (78, "Roger Fernandes",3), --130
    (90, "Wenderson Galeno",3);
 
 --CD Tondela--
@@ -261,8 +261,8 @@ INSERT INTO Jogador(num, nome, idEquipa) VALUES
    (95, "Rafael Alcobia",4),
    (19, "Tiago Almeida",4),
    (23, "Bebeto",4),
-   (4, "Jota Gonçalves",4), --140
-   (5, "Modibo Sagnan",4),
+   (4, "Jota Gonçalves",4), 
+   (5, "Modibo Sagnan",4), --140
    (15, "Manu Hernando",4),
    (33, "Marcelo Alves",4),
    (34, "Ricardo Alves",4),
@@ -271,8 +271,8 @@ INSERT INTO Jogador(num, nome, idEquipa) VALUES
    (24, "Naoufel Khacef",4),
    (75, "Martim Boloto",4),
    (5, "João Jaquité",4),
-   (6, "Pedro Augusto",4), --150
-   (20, "Sessi D’Almeida",4),
+   (6, "Pedro Augusto",4), 
+   (20, "Sessi D’Almeida",4), --150
    (21, "Iker Undabarrena",4),
    (28, "Tiago Dantas",4),
    (80, "Verde Telmo",4),
@@ -281,8 +281,8 @@ INSERT INTO Jogador(num, nome, idEquipa) VALUES
    (11, "Tomislav Strkalj",4),
    (45, "Souleymane Anne",4),
    (10, "Jhon Murillo",4),
-   (10, "Javier Avilés",4),--160
-   (11, "Juan Manuel",4),
+   (10, "Javier Avilés",4),
+   (11, "Juan Manuel",4), --160
    (18, "Matías Lacava",4),
    (9, "Rúben Fonseca",4),
    (17, "Renat Dadashov",4),
@@ -295,8 +295,8 @@ INSERT INTO Jogador(num, nome, idEquipa) VALUES
 
 INSERT INTO Jogador(num, nome, idEquipa) VALUES
    (1, "Antonio Adán",5),
-   (22, "André Paulo",5), --170
-   (31, "João Virgínia",5),
+   (22, "André Paulo",5), 
+   (31, "João Virgínia",5), --170
    (40, "Renan Ribeiro",5),
    (41, "Diego Callai",5),
    (81, "Luís Maximiano",5),
@@ -305,8 +305,8 @@ INSERT INTO Jogador(num, nome, idEquipa) VALUES
    (87, "Gonçalo Esteves",5),
    (3, "Zouhair Feddal",5),
    (4, "Sebastián Coates",5),
-   (13, "Luís Neto",5), --170
-   (25, "Gonçalo Inácio",5),
+   (13, "Luís Neto",5), 
+   (25, "Gonçalo Inácio",5), --180
    (34, "João Goulart",5),
    (63, "José Marsà",5),
    (2, "Matheus Reis",5),
@@ -315,8 +315,8 @@ INSERT INTO Jogador(num, nome, idEquipa) VALUES
    (71, "Flávio Nazinho",5),
    (6, "João Palhinha",5),
    (15, "Manuel Ugarte",5),
-   (84, "Dário Essugo",5), --180
-   (95, "Renato Veiga",5),
+   (84, "Dário Essugo",5), 
+   (95, "Renato Veiga",5), --190
    (8, "Matheus Nunes",5),
    (68, "Daniel Bragança",5),
    (7, "Bruno Tabata",5),
@@ -325,8 +325,8 @@ INSERT INTO Jogador(num, nome, idEquipa) VALUES
    (23, "Marcus Edwards",5),
    (9, "Islam Slimani",5),
    (21, "Paulinho",5),
-   (10, "Verde Jovane",5), --190
-   (11, "Nuno Santos",5),
+   (10, "Verde Jovane",5), 
+   (11, "Nuno Santos",5), --200
    (28, "Pedro Gonçalves",5),
    (57, "Geny Catamo",5),
    (59, "Tiago Ferreira",5),
@@ -338,9 +338,9 @@ INSERT INTO Jogador(num, nome, idEquipa) VALUES
 INSERT INTO Jogador(num, nome, idEquipa) VALUES
    (14, "Bruno Varela",6),
    (29, "Matous Trmal",6),
-   (38, "do Marfim Tié",6),
-   (61, "Antal Bencze",6), --200
-   (63, "Celton Biai",6),
+   (38, "Tié",6),
+   (61, "Antal Bencze",6), 
+   (63, "Celton Biai",6), --210
    (99, "Verde Mário",6),
    (62, "Miguel Maga",6),
    (3, "Bruno Gaspar",6),
@@ -349,8 +349,8 @@ INSERT INTO Jogador(num, nome, idEquipa) VALUES
    (28, "Sílvio",6),
    (68, "Miguel Maga",6),
    (4, "Toni Borevkovic",6),
-   (6, "Abdul Mumin",6), --210
-   (13, "André Amaro",6),
+   (6, "Abdul Mumin",6), 
+   (13, "André Amaro",6), --220
    (44, "Jorge Fernandes",6),
    (82, "Rui Correia",6),
    (83, "Mamadou Tounkara",6),
@@ -359,8 +359,8 @@ INSERT INTO Jogador(num, nome, idEquipa) VALUES
    (91, "Hélder Sá",6),
    (58, "Diogo Paulo",6),
    (30, "Alfa Semedo",6),
-   (41, "Ibrahima Bamba",6), --220
-   (71, "Luís Esteves",6),
+   (41, "Ibrahima Bamba",6), 
+   (71, "Luís Esteves",6), --230
    (80, "Dani Silva",6),
    (88, "Tiago Silva",6),
    (11, "André André",6),
@@ -369,8 +369,8 @@ INSERT INTO Jogador(num, nome, idEquipa) VALUES
    (70, "André Almeida",6),
    (76, "Tomás Händel",6),
    (98, "Nicolas Janvier",6),
-   (75, "Verde Iuri",6), --230
-   (8, "Rúben Lameiras",6),
+   (75, "Verde Iuri",6), 
+   (8, "Rúben Lameiras",6), --240
    (10, "Marcus Edwards",6),
    (9, "Bruno Duarte",6),
    (19, "Oscar Estupiñán",6),
@@ -383,8 +383,8 @@ INSERT INTO Jogador(num, nome, idEquipa) VALUES
 --Portimonense SC--
 
 INSERT INTO Jogador(num, nome, idEquipa) VALUES
-   (1, "Ricardo Ferreira",7), --240
-   (12, "Payam Niazmand",7),
+   (1, "Ricardo Ferreira",7), 
+   (12, "Payam Niazmand",7), --250
    (32, "Kosuke Nakamura",7),
    (94, "Samuel Portugal",7),
    (27, "Lucas Tagliapietra",7),
@@ -393,8 +393,8 @@ INSERT INTO Jogador(num, nome, idEquipa) VALUES
    (42, "Diogo Rodrigues",7),
    (2, "Jeferson Bahia",7),
    (3, "Lucas Possignolo",7),
-   (4, "Willyan Rocha",7), --250
-   (22, "Filipe Relvas",7),
+   (4, "Willyan Rocha",7), 
+   (22, "Filipe Relvas",7),--260
    (33, "Pedro Casagrande",7),
    (44, "Pedrão",7),
    (5, "Fali Candé",7),
@@ -403,8 +403,8 @@ INSERT INTO Jogador(num, nome, idEquipa) VALUES
    (6, "Henrique Jocú",7),
    (21, "Pedro Sá",7),
    (25, "do Congo Imbula",7),
-   (38, "Paulo Estrela",7), --260
-   (8, "Lucas Fernandes",7),
+   (38, "Paulo Estrela",7), 
+   (8, "Lucas Fernandes",7),--270
    (76, "Carlinhos",7),
    (7, "Ewerton",7),
    (85, "Bruno Reis",7),
@@ -413,8 +413,8 @@ INSERT INTO Jogador(num, nome, idEquipa) VALUES
    (20, "Luquinha",7),
    (70, "Iván Angulo",7),
    (77, "Aylton Boa",7),
-   (9, "Fabrício",7), --270
-   (14, "Beto",7),
+   (9, "Fabrício",7), 
+   (14, "Beto",7), --280
    (17, "Ricardo Matos",7),
    (39, "Wilinton Aponzá",7),
    (91, "Renato Júnior",7),
@@ -427,8 +427,8 @@ INSERT INTO Jogador(num, nome, idEquipa) VALUES
 --Arouca FC--
 
 INSERT INTO Jogador(num, nome, idEquipa) VALUES
-   (30, "Norbert Haymamba",8), --280
-   (1, "Victor Braga",8),
+   (30, "Norbert Haymamba",8), 
+   (1, "Victor Braga",8), --290
    (12, "Emilijus Zubas",8),
    (97, "Fernando Castro",8),
    (2, "Luiz Gustavo",8),
@@ -437,8 +437,8 @@ INSERT INTO Jogador(num, nome, idEquipa) VALUES
    (3, "Brunão Gonçalves",8),
    (4, "Sema Velázquez",8),
    (13, "João Basso",8),
-   (22, "Gastón Campi",8), --290
-   (32, "Baptiste Aloé",8),
+   (22, "Gastón Campi",8), 
+   (32, "Baptiste Aloé",8), --300
    (44, "Nino Galovic",8),
    (53, "Abdoulaye Ba",8),
    (6, "Mateus Quaresma",8),
@@ -447,8 +447,8 @@ INSERT INTO Jogador(num, nome, idEquipa) VALUES
    (20, "Pedro Moreira",8),
    (60, "Verde Marco",8),
    (14, "Pité",8),
-   (22, "Alan Ruiz",8), --300
-   (23, "Eugeni Valderrama",8),
+   (22, "Alan Ruiz",8), 
+   (23, "Eugeni Valderrama",8), --310
    (5, "David Simão",8),
    (17, "Yaw Moses",8),
    (21, "Leandro Silva",8),
@@ -457,8 +457,8 @@ INSERT INTO Jogador(num, nome, idEquipa) VALUES
    (11, "Adílio Santos",8),
    (19, "Or Dasa",8),
    (9, "Mauro Caballero",8),
-   (99, "Bruno Marques",8), --310
-   (8, "Arsénio Nunes",8),
+   (99, "Bruno Marques",8), 
+   (8, "Arsénio Nunes",8), --320
    (78, "Tiago Araújo",8),
    (7, "André Silva",8),
    (9, "Omri Altman",8),
@@ -471,8 +471,8 @@ INSERT INTO Jogador(num, nome, idEquipa) VALUES
    (1, "Žiga Frelih",9),
    (1, "Stanislav Kritciuk",9),
    (12, "Brian Araújo",9),
-   (42, "Andrew Silva",9), --320
-   (33, "Guilherme Silva",9),
+   (42, "Andrew Silva",9), 
+   (33, "Guilherme Silva",9), --330
    (2, "Zé Carlos",9),
    (5, "Emma Hackman",9),
    (4, "Diogo Silva",9),
@@ -481,8 +481,8 @@ INSERT INTO Jogador(num, nome, idEquipa) VALUES
    (33, "Iago Maidana",9),
    (31, "Talocha",9),
    (55, "Henrique Gomes",9),
-   (6, "João Afonso",9), --330
-   (21, "Vitor Carvalho",9),
+   (6, "João Afonso",9), 
+   (21, "Vitor Carvalho",9), --340
    (25, "Jean Irmer",9),
    (8, "Pedrinho",9),
    (10, "Kanya Fujimoto",9),
@@ -491,8 +491,8 @@ INSERT INTO Jogador(num, nome, idEquipa) VALUES
    (20, "João Caiado",9),
    (11, "Antoine Léautey",9),
    (77, "Murilo Souza",9),
-   (9, "Fran Navarro",9), --340
-   (19, "Juan Calero",9),
+   (9, "Fran Navarro",9), 
+   (19, "Juan Calero",9), --350
    (27, "Marcelo dos",9),
    (93, "Élder Santana",9),
    (99, "André Liberal",9),
@@ -505,8 +505,8 @@ INSERT INTO Jogador(num, nome, idEquipa) VALUES
 INSERT INTO Jogador(num, nome, idEquipa) VALUES
    (1, "Rafael Bracali",10),
    (90, "Alireza Beiranvand",10),
-   (99, "João Gonçalves",10), --350
-   (19, "Ricardo Mangas",10),
+   (99, "João Gonçalves",10), 
+   (19, "Ricardo Mangas",10), --360
    (2, "Unidos Reggie",10),
    (22, "Nathan Santos",10),
    (79, "Pedro Malheiro",10),
@@ -515,8 +515,8 @@ INSERT INTO Jogador(num, nome, idEquipa) VALUES
    (5, "Chidozie Awaziem",10),
    (13, "Guito Madureira",10),
    (21, "Jackson Porozo",10),
-   (26, "Rodrigo Abascal",10), --360
-   (20, "Filipe Ferreira",10),
+   (26, "Rodrigo Abascal",10), 
+   (20, "Filipe Ferreira",10), --370
    (25, "Yanis Hamache",10),
    (32, "Rui Santos",10),
    (51, "Breno Pais",10),
@@ -525,8 +525,8 @@ INSERT INTO Jogador(num, nome, idEquipa) VALUES
    (18, "Ilija Vukotic",10),
    (24, "Sebastián Pérez",10),
    (80, "Berna Conceição",10),
-   (10, "Miguel Reisinho",10), --370
-   (14, "Tomás Reymão",10),
+   (10, "Miguel Reisinho",10), 
+   (14, "Tomás Reymão",10), --380
    (16, "Joel Silva",10),
    (42, "Gaius Makouta",10),
    (78, "Alexandre Moutinho",10),
@@ -535,8 +535,8 @@ INSERT INTO Jogador(num, nome, idEquipa) VALUES
    (9, "Petar Musa",10),
    (11, "Yusupha Njie",10),
    (17, "Manuel Namora",10),
-   (27, "Jeriel De",10), --380
-   (59, "Martim Tavares",10),
+   (27, "Jeriel De",10), 
+   (59, "Martim Tavares",10), --390
    (73, "Tiago Morais",10),
    (7, "Kenji Gorré",10),
    (31, "Fitzgerald",10),
@@ -549,8 +549,8 @@ INSERT INTO Jogador(num, nome, idEquipa) VALUES
    (12, "Thiago Rodrigues",11),
    (47, "João Oliveira",11),
    (99, "Daniel Figueira",11),
-   (2, "Carles Soria",11), --390
-   (22, "David Bruno",11),
+   (2, "Carles Soria",11), 
+   (22, "David Bruno",11), --400
    (3, "Bernardo Vital",11),
    (4, "Lucas Áfrico",11),
    (5, "Volnei Feltes",11),
@@ -559,8 +559,8 @@ INSERT INTO Jogador(num, nome, idEquipa) VALUES
    (97, "Patrick William",11),
    (14, "Racine Coly",11),
    (31, "Joãozinho",11),
-   (13, "Miguel Crespo",11), --400
-   (78, "Duarte Carvalho",11),
+   (13, "Miguel Crespo",11), 
+   (78, "Duarte Carvalho",11), --410
    (21, "João Gamboa",11),
    (32, "Loreintz Rosier",11),
    (6, "Francisco Geraldes",11),
@@ -569,8 +569,8 @@ INSERT INTO Jogador(num, nome, idEquipa) VALUES
    (10, "André Franco",11),
    (20, "Bruno Lourenço",11),
    (19, "Afonso Valente",11),
-   (58, "Romário Baró",11), --410
-   (37, "Elias Achouri",11),
+   (58, "Romário Baró",11), 
+   (37, "Elias Achouri",11), --420
    (96, "Gonçalo Gomes",11),
    (7, "Jordi Mboula",11),
    (92, "António Xavier",11),
@@ -579,8 +579,8 @@ INSERT INTO Jogador(num, nome, idEquipa) VALUES
    (17, "Rui Fonte",11),
    (18, "Leonardo Ruiz",11),
    (90, "Verde Gilson",11),
-   (7, "Chiquinho",11), --420
-   (11, "Arthur Gomes",11),
+   (7, "Chiquinho",11), 
+   (11, "Arthur Gomes",11), --430
    (26, "Ryotaro Meshino",11),
    (77, "Johan Mina",11);
 
@@ -593,8 +593,8 @@ INSERT INTO Jogador(num, nome, idEquipa) VALUES
    (2, "Rodrigo Conceição",12),
    (13, "Matheus Silva",12),
    (77, "Paulinho",12),
-   (3, "Lazar Rosic",12), --430
-   (4, "Artur Jorge",12),
+   (3, "Lazar Rosic",12), 
+   (4, "Artur Jorge",12), --440
    (19, "Steven Vitória",12),
    (28, "Pablo Santos",12),
    (30, "Abdoulaye Ba",12),
@@ -603,8 +603,8 @@ INSERT INTO Jogador(num, nome, idEquipa) VALUES
    (23, "Baixos Godfried",12),
    (6, "Fábio Pacheco",12),
    (8, "(Conacri) Ibrahima",12),
-   (16, "Sori Mané",12), --440
-   (25, "Nikola Jambor",12),
+   (16, "Sori Mané",12), 
+   (25, "Nikola Jambor",12), --450
    (66, "Rúben Ramos",12),
    (37, "Galego",12),
    (88, "Gonçalo Franco",12),
@@ -613,8 +613,8 @@ INSERT INTO Jogador(num, nome, idEquipa) VALUES
    (7, "Walterson Silva",12),
    (10, "Felipe Pires",12),
    (9, "André Luís",12),
-   (27, "Derik Lacerda",12), --450
-   (99, "Rafael Martins",12),
+   (27, "Derik Lacerda",12), 
+   (99, "Rafael Martins",12), --460
    (11, "Yan Matheus",12),
    (87, "Kevin Mirallas",12);
 
@@ -627,8 +627,8 @@ INSERT INTO Jogador(num, nome, idEquipa) VALUES
    (84, "Ivo Gonçalves",13),
    (87, "Charles Silva",13),
    (2, "Hugo Oliveira",13),
-   (14, "Igor Julião",13), --460
-   (39, "do Marfim Kouao",13),
+   (14, "Igor Julião",13), 
+   (39, "Kouao",13), --470
    (3, "Bruno Wilson",13),
    (4, "Ivanildo Fernandes",13),
    (5, "Anderson Jesus",13),
@@ -637,8 +637,8 @@ INSERT INTO Jogador(num, nome, idEquipa) VALUES
    (24, "Kiki Afonso",13),
    (37, "Richard Ofori",13),
    (54, "Gonçalo Cunha",13),
-   (60, "Nor Maviram",13), --470
-   (12, "Marcelo Machado",13),
+   (60, "Nor Maviram",13), 
+   (12, "Marcelo Machado",13), --480
    (6, "Claudemir",13),
    (17, "Marcos Paulo",13),
    (28, "Emma Adeyemo",13),
@@ -647,8 +647,8 @@ INSERT INTO Jogador(num, nome, idEquipa) VALUES
    (20, "Samu Silva",13),
    (70, "Unidos Alejandro",13),
    (8, "Raphael Guzzo",13),
-   (13, "do Marfim Zag",13), --480
-   (42, "Abdul Mohammed",13),
+   (13, "do Marfim Zag",13), 
+   (42, "Abdul Mohammed",13), --490
    (82, "Tomás Silva",13),
    (98, "Didi",13),
    (10, "Kiko Bondoso",13),
@@ -657,8 +657,8 @@ INSERT INTO Jogador(num, nome, idEquipa) VALUES
    (18, "Guo Tianyu",13),
    (22, "Kévin Zohi",13),
    (80, "Tiago Ventura",13),
-   (90, "Friday Etim",13), --490
-   (95, "Guilherme Schettine",13),
+   (90, "Friday Etim",13), 
+   (95, "Guilherme Schettine",13), --500
    (16, "João Pais",13),
    (29, "Andrés Sarmiento",13),
    (79, "Nuno Moreira",13),
@@ -671,8 +671,8 @@ INSERT INTO Jogador(num, nome, idEquipa) VALUES
    (13, "Dalberson Ferreira",14),
    (31, "Luiz Júnior",14),
    (5, "Baixos Calvin",14),
-   (2, "Dani Morer",14), --500
-   (22, "De La Fuente",14),
+   (2, "Dani Morer",14), 
+   (22, "De La Fuente",14), --510
    (90, "Diogo Figueiras",14),
    (53, "Fábio Baldé",14),
    (2, "Diogo Queirós",14),
@@ -681,8 +681,8 @@ INSERT INTO Jogador(num, nome, idEquipa) VALUES
    (19, "Dylan Batubinsika",14),
    (43, "Alexandre Penetra",14),
    (44, "Francisco Saldanha",14),
-   (97, "Patrick William",14), --510
-   (3, "Rúben Lima",14),
+   (97, "Patrick William",14), 
+   (3, "Rúben Lima",14), --520
    (5, "Adrián Marín",14),
    (21, "Ivan Dolcek",14),
    (55, "Abdul Ibrahim",14),
@@ -691,8 +691,8 @@ INSERT INTO Jogador(num, nome, idEquipa) VALUES
    (12, "Gustavo Assunção",14),
    (16, "Ryan Teague",14),
    (23, "Benny",14),
-   (66, "Lucas Henrique",14), --520
-   (8, "Pedro Brazão",14),
+   (66, "Lucas Henrique",14), 
+   (8, "Pedro Brazão",14), --530
    (28, "João Carlos",14),
    (30, "André Ricardo",14),
    (20, "David Tavares",14),
@@ -701,8 +701,8 @@ INSERT INTO Jogador(num, nome, idEquipa) VALUES
    (80, "Lawrence Ofori",14),
    (88, "Pêpê Rodrigues",14),
    (99, "Amarildo",14),
-   (7, "Ivo Rodrigues",14), --530
-   (14, "Junior Kadile",14),
+   (7, "Ivo Rodrigues",14), 
+   (14, "Junior Kadile",14), --540
    (75, "Geovani Júnior",14),
    (91, "Heriberto Tavares",14),
    (17, "Simon Banza",14),
@@ -711,8 +711,8 @@ INSERT INTO Jogador(num, nome, idEquipa) VALUES
    (33, "Anderson Oliveira",14),
    (77, "Pablo Felipe",14),
    (9, "Marcos Paulo",14),
-   (10, "Iván Jaime",14), --540
-   (11, "Bruno Rodrigues",14);
+   (10, "Iván Jaime",14), 
+   (11, "Bruno Rodrigues",14); --550
 
 --CD Santa Clara--
 
@@ -725,8 +725,8 @@ INSERT INTO Jogador(num, nome, idEquipa) VALUES
    (3, "Mikel Villanueva",15),
    (4, "Kennedy Boateng",15),
    (5, "João Afonso",15),
-   (15, "Andrei Chindris",15), --550
-   (17, "Cristian Tassano",15),
+   (15, "Andrei Chindris",15), 
+   (17, "Cristian Tassano",15), --560
    (6, "Mansur",15),
    (16, "Paulo Henrique",15),
    (8, "Anderson Carvalho",15),
@@ -735,8 +735,8 @@ INSERT INTO Jogador(num, nome, idEquipa) VALUES
    (11, "João Costinha",15),
    (90, "Patrick Machado",15),
    (98, "Ricardinho",15),
-   (14, "Rúben Oliveira",15), --560
-   (21, "Nené",15),
+   (14, "Rúben Oliveira",15), 
+   (21, "Nené",15), --570
    (25, "Hidemasa Morita",15),
    (9, "Mohamed Bouldini",15),
    (13, "Carlos Júnior",15),
@@ -745,8 +745,8 @@ INSERT INTO Jogador(num, nome, idEquipa) VALUES
    (20, "Óscar Barreto",15),
    (26, "Jean Patric",15),
    (27, "Kyosuke Tagawa",15),
-   (22, "Pipe Gómez",15), --570
-   (29, "Luiz Phellype",15),
+   (22, "Pipe Gómez",15), 
+   (29, "Luiz Phellype",15), --580
    (77, "Rui Costa",15),
    (30, "Mohammad Mohebi",15),
    (76, "Hamidou Keyta",15);
@@ -759,8 +759,8 @@ INSERT INTO Jogador(num, nome, idEquipa) VALUES
    (31, "João Monteiro",16),
    (4, "Tomás Ribeiro",16),
    (34, "André Lopes",16),
-   (2, "Diogo Calila",16), --580
-   (13, "Jójó",16),
+   (2, "Diogo Calila",16), 
+   (13, "Jójó",16), --590
    (17, "Carraça",16),
    (22, "Henrique Pires",16),
    (44, "Eduardo Kau",16),
@@ -769,8 +769,8 @@ INSERT INTO Jogador(num, nome, idEquipa) VALUES
    (21, "do Sul Phete",16),
    (24, "Christian Marques",16),
    (32, "Yohan Tavares",16),
-   (33, "Fasso Trova",16), --590
-   (5, "Nilton Varela",16),
+   (33, "Fasso Trova",16), 
+   (5, "Nilton Varela",16), --600
    (27, "Chima Akas",16),
    (43, "Martim Coxixo",16),
    (42, "António Montez",16),
@@ -779,8 +779,8 @@ INSERT INTO Jogador(num, nome, idEquipa) VALUES
    (10, "Afonso Sousa",16),
    (23, "Baixos Jordan der",16),
    (49, "Tomás Castro",16),
-   (8, "Sithole",16), --600
-   (11, "Andrija Lukovic",16),
+   (8, "Sithole",16), 
+   (11, "Andrija Lukovic",16), --610
    (16, "César Sousa",16),
    (20, "Rafa Santos",16),
    (45, "Braíma Sambú",16),
@@ -789,8 +789,8 @@ INSERT INTO Jogador(num, nome, idEquipa) VALUES
    (38, "Gonçalo Agrelos",16),
    (19, "Chico Teixeira",16),
    (29, "Abel Camará",16),
-   (64, "Rafael Camacho",16), --610
-   (15, "Luís Mota",16),
+   (64, "Rafael Camacho",16), 
+   (15, "Luís Mota",16), --620
    (18, "Alioune Ndour",16),
    (25, "Alisson Safira",16),
    (88, "Licá",16),
@@ -803,8 +803,8 @@ INSERT INTO Jogador(num, nome, idEquipa) VALUES
    (48, "Paulo Victor",17),
    (96, "Pedro Teixeira",17),
    (98, "Vitor Eudes",17),
-   (2, "Cláudio Winck",17), --620
-   (27, "Tim Soderstrom",17),
+   (2, "Cláudio Winck",17), 
+   (27, "Tim Soderstrom",17), --630
    (3, "Moises Mosquera",17),
    (4, "Matheus Costa",17),
    (5, "Zainadine Júnior",17),
@@ -813,8 +813,8 @@ INSERT INTO Jogador(num, nome, idEquipa) VALUES
    (45, "Fábio China",17),
    (94, "Vitor Costa",17),
    (6, "Filipe Cardoso",17),
-   (15, "Iván Rossi",17), --630
-   (16, "Diogo Mendes",17),
+   (15, "Iván Rossi",17), 
+   (16, "Diogo Mendes",17), --640
    (60, "Pedro Pelágio", 17),
    (8, "Rafik Guitane",17),
    (10, "Stefano Beltrame",17),
@@ -823,8 +823,8 @@ INSERT INTO Jogador(num, nome, idEquipa) VALUES
    (44, "André Teles",17),
    (88, "Rodrigo Andrade",17),
    (34, "Johnson Owusu",17),
-   (93, "Henrique Rafael",17), --640
-   (11, "Milson",17),
+   (93, "Henrique Rafael",17), 
+   (11, "Milson",17), --650
    (12, "Edgar Costa",17),
    (24, "Clésio Baúque",17),
    (9, "Ali Alipour",17),
@@ -837,8 +837,8 @@ INSERT INTO Jogador(num, nome, idEquipa) VALUES
 
 INSERT INTO Jogador(num, nome, idEquipa) VALUES
    (1, "Jordi Martins",18),
-   (12, "Jeimes Menezes",18), --650
-   (13, "André Ferreira",18),
+   (12, "Jeimes Menezes",18), 
+   (13, "André Ferreira",18), --660
    (25, "José Oliveira",18),
    (98, "Igor Vekić",18),
    (15, "Juan Delgado",18),
@@ -847,8 +847,8 @@ INSERT INTO Jogador(num, nome, idEquipa) VALUES
    (30, "Miguel Mota",18),
    (2, "Marco Baixinho",18),
    (3, "Nuno Lima",18),
-   (4, "Pedro Ganchas",18), --660
-   (6, "Maracás",18),
+   (4, "Pedro Ganchas",18), 
+   (6, "Maracás",18), --670
    (32, "Flávio Ramos",18),
    (5, "Antunes",18),
    (20, "Luís Bastos",18),
@@ -857,8 +857,8 @@ INSERT INTO Jogador(num, nome, idEquipa) VALUES
    (24, "Mohamed Diaby",18),
    (26, "Rui Pires",18),
    (46, "Stephen Eustáquio",18),
-   (16, "Matchoi Djaló",18), --670
-   (28, "Nico Gaitán",18),
+   (16, "Matchoi Djaló",18), 
+   (28, "Nico Gaitán",18), --680
    (77, "Nuno Santos",18),
    (8, "Abbas Ibrahim",18),
    (34, "Bruno Silva",18),
@@ -867,7 +867,7 @@ INSERT INTO Jogador(num, nome, idEquipa) VALUES
    (10, "Denilson Jr.",18),
    (11, "Koffi",18),
    (17, "Adrián Butzke",18),
-   (35, "Edmilson Mendes",18), --680
+   (35, "Edmilson Mendes",18),  --690
    (45, "João Pedro",18),
    (99, "Douglas Tanque",18),
    (7, "Hélder Ferreira",18),
@@ -876,24 +876,24 @@ INSERT INTO Jogador(num, nome, idEquipa) VALUES
    (31, "Guilherme Pio",18);
    
 INSERT INTO Golo (idJogo, minuto, equipaMarc, idJogador) VALUES
-    (1,48,5,192), -- Sporting CP | Pedro Goncalves
-    (1,64,5,192), -- Sporting CP | Pedro Goncalves
-    (1,74,5,189), -- Sporting CP | Paulinho
-    (2,4,11,407), -- GD Estoril Praia | Andre Franco
-    (2,96,11,422), -- GD Estoril Praia | Meshino
+    (1,48,5,201), -- Sporting CP | Pedro Goncalves
+    (1,64,5,201), -- Sporting CP | Pedro Goncalves
+    (1,74,5,198), -- Sporting CP | Paulinho
+    (2,4,11,416), -- GD Estoril Praia | Andre Franco
+    (2,96,11,431), -- GD Estoril Praia | Meshino
     (3,8,1,7), -- SL Benfica | Lucas Verissimo
     (3,19,1,27), -- SL Benfica | Luca Waldschmidt 
-    (3,30,12,451), -- Moreirense | Rafael Martins
+    (3,30,12,460), -- Moreirense | Rafael Martins
     (4,61,3,99), -- SC Braga | Raul Silva
     (4,69,3,121), -- SC Braga | Ricardo Horta
-    (5,18,4,165), -- CD Tondela | Daniel dos Anjos
-    (5,54,4,165), -- CD Tondela | Daniel dos Anjos
-    (5,84,4,155), -- CD Tondela | Joao Pedro
-    (6,86,7,271), -- Portimonense SC | Beto 
+    (5,18,4,164), -- CD Tondela | Daniel dos Anjos
+    (5,54,4,164), -- CD Tondela | Daniel dos Anjos
+    (5,84,4,154), -- CD Tondela | Joao Pedro
+    (6,86,7,280), -- Portimonense SC | Beto 
     (7,19,2,76), -- FC Porto | Toni Martinez
     (7,65,2,80), -- FC Porto | Luis Diaz
-    (8,49,18,685), -- FC Pacos Ferreira | Lucas Silva
-    (8,50,18,672), -- FC Pacos Ferreira | Nuno Santos
-    (9,3,9,340), -- Gil Vicente FC | Fran Navarro
-    (9,24,9,340), -- Gil Vicente FC | Fran Navarro
-    (9,56,9,347); -- Gil Vicente FC | Samuel Lino
+    (8,49,18,694), -- FC Pacos Ferreira | Lucas Silva
+    (8,50,18,681), -- FC Pacos Ferreira | Nuno Santos
+    (9,3,9,349), -- Gil Vicente FC | Fran Navarro
+    (9,24,9,349), -- Gil Vicente FC | Fran Navarro
+    (9,56,9,356); -- Gil Vicente FC | Samuel Lino
