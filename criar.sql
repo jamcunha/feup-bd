@@ -53,7 +53,7 @@ CREATE TABLE Classificacao(
 
 CREATE TABLE Jogo (
     idJogo INTEGER PRIMARY KEY AUTOINCREMENT,
-    vencedor INTEGER REFERENCES Equipa(idEquipa) CHECK(vencedor = equipaVisitada OR vencedor = equipaVisitante),
+    vencedor INTEGER REFERENCES Equipa(idEquipa), --CHECK(vencedor = equipaVisitada OR vencedor = equipaVisitante)
     numJornada INTEGER REFERENCES Jornada(num) CHECK(numJornada > 0 AND numJornada <= 34),
     equipaVisitada INTEGER REFERENCES Equipa(idEquipa),
     equipaVisitante INTEGER REFERENCES Equipa(idEquipa)
