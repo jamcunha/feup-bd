@@ -9,6 +9,17 @@ DROP TABLE IF EXISTS Golo;
 
 -- Criar tabelas
 
+-- Eliminacao de tabelas anteriores
+
+DROP TABLE IF EXISTS Equipa;
+DROP TABLE IF EXISTS Jornada;
+DROP TABLE IF EXISTS Jogador;
+DROP TABLE IF EXISTS Classificacao;
+DROP TABLE IF EXISTS Jogo;
+DROP TABLE IF EXISTS Golo;
+
+-- Criar tabelas
+
 CREATE TABLE Equipa (
     idEquipa INTEGER PRIMARY KEY AUTOINCREMENT,
     nome VARCHAR(50) NOT NULL UNIQUE
