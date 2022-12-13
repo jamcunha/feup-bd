@@ -17,7 +17,7 @@ UPDATE Jogo
 SET Vencedor=T.Vencedor
 FROM(
 
-	SELECT CASE WHEN  B.Golos > ifnull(A.Golos,0) THEN Jogo.equipaVisitada WHEN ifnull(B.Golos,0) < ifnull(A.Golos,0) THEN Jogo.equipaVisitante END Vencedor
+	SELECT CASE WHEN  B.Golos > A.Golos THEN Jogo.equipaVisitada WHEN B.Golos < A.Golos THEN Jogo.equipaVisitante END Vencedor
 	FROM(
 			(SELECT count(*) as Golos
 			FROM Jogo,Golo
