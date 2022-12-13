@@ -36,3 +36,5 @@ FROM(
 ) as T 
 WHERE Jogo.idJogo=new.idJogo;
 END;
+
+--update apenas se trocar de vencedor
