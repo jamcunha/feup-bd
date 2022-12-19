@@ -97,7 +97,7 @@ INSERT INTO Jogo (numJornada, equipaVisitada, equipaVisitante) VALUES
     (4,7,18), -- Portimonese SC | FC Pacos de Ferreira
     (4,15,9), -- CD Santa Clara | Gil Vicente FC
     -- quarta jornada
-    (5,18,4), -- FC Pacos de Ferreira | SC Braga
+    (5,18,3), -- FC Pacos de Ferreira | SC Braga
     (5,15,1), -- CD Santa Clara | SL Benfica
     (5,5,2), -- Sporting CP | FC Porto
     (5,12,14), -- Moreirense FC | FC Famalicao
@@ -106,8 +106,7 @@ INSERT INTO Jogo (numJornada, equipaVisitada, equipaVisitante) VALUES
     (5,6,16), -- Vitoria SC | B SAD
     (5,17,8), -- CS Maritimo | Arouca FC
     (5,4,11); -- CD Tondela | GD Estoril Praia
-    -- quinta jornada
-
+ 
 --SL Benfica--
 
 INSERT INTO Jogador(num, nome, idEquipa) VALUES
