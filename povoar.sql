@@ -101,12 +101,302 @@ INSERT INTO Jogo (numJornada, equipaVisitada, equipaVisitante) VALUES
     (5,15,1), -- CD Santa Clara | SL Benfica
     (5,5,2), -- Sporting CP | FC Porto
     (5,12,14), -- Moreirense FC | FC Famalicao
-    (5,10,7), -- Boavista FC | POrtimonese SC
+    (5,10,7), -- Boavista FC | Portimonese SC
     (5,9,13), -- Gil Vicente FC | FC Vizela
     (5,6,16), -- Vitoria SC | B SAD
     (5,17,8), -- CS Maritimo | Arouca FC
-    (5,4,11); -- CD Tondela | GD Estoril Praia
+    (5,4,11), -- CD Tondela | GD Estoril Praia
     -- quinta jornada
+    (6,3,4), -- SC Braga | CD Tondela
+    (6,1,10), -- SL Benfica | Boavista FC
+    (6,11,5), -- GD Estoril Praia | Sporting CP
+    (6,2,12), -- FC Porto | Moreirense FC
+    (6,13,18), -- FC Vizela | FC Pacos de Ferreira
+    (6,8,6), -- Arouca FC | Vitoria SC
+    (6,16,9), -- B SAD | Gil Vicente FC
+    (6,14,17), -- FC Famalicao | CS Maritimo
+    (6,7,15), -- Portimonense SC | CD Santa Clara
+    -- sexta jornada
+    (7,10,11), -- Boavista FC | GD Estoril Praia
+    (7,18,16), -- FC Pacos de Ferreira | B SAD
+    (7,7,13), -- Portimonense SC | FC Vizela
+    (7,15,3), -- CD Santa Clara | SC Braga
+    (7,4,14), -- CD Tondela | FC Famalicao
+    (7,6,1), -- Vitoria SC | SL Benfica
+    (7,12,8), -- Moreirense FC | Arouca FC
+    (7,9,2), -- Gil Vicente FC | FC Porto
+    (7,5,17), -- Sporting CP | CS Maritimo
+    -- sétima jornada
+    (8,3,10), -- SC Braga | Boavista FC
+    (8,1,7), -- SL Benfica | Portimonense SC
+    (8,11,9), -- GD Estoril Praia | Gil Vicente FC
+    (8,16,4), -- B SAD | CD Tondela
+    (8,8,5), -- Arouca FC | Sporting CP
+    (8,2,18), -- FC Porto | FC Pacos de Ferreira
+    (8,13,15), -- FC Vizela | CD Santa Clara
+    (8,14,6), -- FC Famalicao | Vitoria SC
+    (8,17,12), -- CS Maritimo | Moreirense FC
+    -- oitava jornada
+    (9,10,16), -- Boavista FC | B SAD
+    (9,9,3), -- Gil Vicente FC | SC Braga
+    (9,7,11), -- Portimonense SC | GD Estoril Praia
+    (9,13,1), -- FC Vizela | SL Benfica
+    (9,18,8), -- FC Pacos de Ferreira | Arouca FC
+    (9,5,12), -- Sporting CP | Moreirense FC
+    (9,4,2), -- CD Tondela | FC Porto
+    (9,15,14), -- CD Santa Clara | FC Famalicao
+    (9,6,17), -- Vitoria SC | CS Maritimo
+    -- nona jornada
+    (10,12,18), -- Moreirense FC | FC Pacos de Ferreira
+    (10,3,7), -- SC Braga | Portimonense SC
+    (10,14,13), -- FC Famalicao | FC Vizela
+    (10,16,15), -- B SAD | CD Santa Clara
+    (10,17,9), -- CS Maritimo | Gil Vicente FC
+    (10,5,6), -- Sporting CP | Vitoria SC
+    (10,11,1), -- GD Estoril Praia | SL Benfica
+    (10,2,10), -- FC Porto | Boavista FC
+    (10,8,4), -- Arouca FC | CD Tondela
+    -- décima jornada
+    (11,1,3), -- SL Benfica | SC Braga
+    (11,18,5), -- FC Pacos de Ferreira | Sporting CP
+    (11,15,2), -- CD Santa Clara | FC Porto
+    (11,4,17), -- CD Tondela | CS Maritimo
+    (11,6,12), -- Vitoria SC | Moreirense FC
+    (11,7,16), -- Portimonense SC | B SAD
+    (11,13,11), -- FC Vizela | GD Estoril Praia
+    (11,10,14), -- Boavista FC | FC Famalicao
+    (11,9,8), -- Gil Vicente FC | Arouca FC
+    -- décima-primeira jornada
+    (12,3,13), -- SC Braga | FC Vizela
+    (12,11,15), -- GD Estoril Praia | CD Santa Clara
+    (12,2,6), -- FC Porto | Vitoria SC
+    (12,5,4), -- Sporting CP | CD Tondela
+    (12,17,18), -- CS Maritimo | FC Pacos de Ferreira
+    (12,16,1), -- B SAD | SL Benfica
+    (12,8,10), -- Arouca FC | Boavista FC
+    (12,14,7), -- FC Famalicao | Portimonense SC
+    (12,12,9), -- Moreirense FC | Gil Vicente FC
+    -- décima-segunda jornada
+    (13,4,12), -- CD Tondela | Moreirense FC
+    (13,13,16), -- FC Vizela | B SAD
+    (13,3,11), -- SC Braga | GD Estoril Praia
+    (13,9,14), -- Gil Vicente FC | FC Famalicao
+    (13,15,8), -- CD Santa Clara | Arouca FC
+    (13,18,6), -- FC Pacos de Ferreira | Vitoria SC
+    (13,10,17), -- Boavista FC | CS Maritimo
+    (13,1,5), -- SL Benfica | Sporting CP
+    (13,7,2), -- Portimonense SC | FC Porto
+    -- décima-terceira jornada
+    (14,8,13), -- Arouca FC | FC Vizela
+    (14,2,3), -- FC Porto | SC Braga
+    (14,14,1), -- FC Famalicao | SL Benfica
+    (14,16,11), -- B SAD | GD Estoril Praia
+    (14,12,7), -- Moreirense FC | Portimonense SC
+    (14,5,10), -- Sporting CP | Boavista FC
+    (14,6,4), -- Vitoria SC | CD Tondela
+    (14,17,15), -- CS Maritimo | CD Santa Clara
+    (14,18,9), -- FC Pacos de Ferreira | Gil Vicente FC
+    -- décima-quarta jornada
+    (15,3,16), -- SC Braga | B SAD
+    (15,13,2), -- FC Vizela | FC Porto
+    (15,1,17), -- SL Benfica | CS Maritimo
+    (15,10,12), -- Boavista FC | Moreirense FC
+    (15,9,5), -- Gil Vicente FC | Sporting CP
+    (15,7,8), -- Portimonense SC | Arouca FC
+    (15,4,18), -- CD Tondela | FC Pacos de Ferreira
+    (15,11,14), -- GD Estoril Praia | FC Famalicao
+    (15,15,6), -- CD Santa Clara | Vitoria SC
+    -- décima-quinta jornada
+    (16,14,16), -- FC Famalicao | B SAD
+    (16,2,1), -- FC Porto | SL Benfica
+    (16,8,3), -- Arouca FC | SC Braga
+    (16,18,15), -- FC Pacos de Ferreira | CD Santa Clara
+    (16,5,7), -- Sporting CP | Portimonense SC
+    (16,6,10), -- Vitoria SC | Boavista FC
+    (16,12,11), -- Moreirense FC | GD Estoril Praia
+    (16,17,13), -- CS Maritimo | FC Vizela
+    (16,4,9), -- CD Tondela | Gil Vicente FC
+    -- décima-sexta jornada
+    (17,9,6), -- Gil Vicente FC | Vitoria SC
+    (17,16,8), -- B SAD | Arouca FC
+    (17,1,18), -- SL Benfica | FC Pacos de Ferreira
+    (17,3,14), -- SC Braga | FC Famalicao
+    (17,7,17), -- Portimonense SC | CS Maritimo
+    (17,10,4), -- Boavista FC | CD Tondela
+    (17,11,2), -- GD Estoril Praia | FC Porto
+    (17,13,12), -- FC Vizela | Moreirense FC
+    (17,15,5), -- CD Santa Clara | Sporting CP
+    -- décima-sétima jornada
+    (18,11,8), -- GD Estoril Praia | Arouca FC
+    (18,7,6), -- Portimonense SC | Vitoria SC
+    (18,16,2), -- B SAD | FC Porto
+    (18,14,18), -- FC Famalicao | FC Pacos de Ferreira
+    (18,13,5), -- FC Vizela | Sporting CP
+    (18,15,4), -- CD Santa Clara | CD Tondela
+    (18,1,12), -- SL Benfica | Moreirense FC
+    (18,3,17), -- SC Braga | CS Maritimo
+    (18,10,9), -- Boavista FC | Gil Vicente FC
+    -- décima-oitava jornada
+    (19,2,14), -- FC Porto | FC Famalicao
+    (19,9,7), -- Gil Vicente FC | Portimonense SC
+    (19,17,16), -- CS Maritimo | B SAD
+    (19,6,11), -- Vitoria SC | GD Estoril Praia
+    (19,5,3), -- Sporting CP | SC Braga
+    (19,4,13), -- CD Tondela | FC Vizela
+    (19,12,15), -- Moreirense FC | CD Santa Clara
+    (19,18,10), -- FC Pacos de Ferreira | Boavista FC
+    (19,8,1), -- Arouca FC | SL Benfica
+    -- décima-nona jornada
+    (20,16,5), -- B SAD | Sporting CP
+    (20,1,9), -- SL Benfica | Gil Vicente FC
+    (20,15,10), -- CD Santa Clara | Boavista FC
+    (20,14,8), -- FC Famalicao | Arouca FC
+    (20,11,18), -- GD Estoril Praia | FC Pacos de Ferreira
+    (20,2,17), -- FC Porto | CS Maritimo
+    (20,3,12), -- SC Braga | Moreirense FC
+    (20,7,4), -- Portimonense SC | CD Tondela
+    (20,13,6), -- FC Vizela | Vitoria SC
+    -- vigésima jornada
+    (21,12,16), -- Moreirense FC | B SAD
+    (21,4,1), -- CD Tondela | SL Benfica
+    (21,5,14), -- Sporting CP | FC Famalicao
+    (21,8,2), -- Arouca FC | FC Porto
+    (21,10,13), -- Boavista FC | FC Vizela
+    (21,9,15), -- Gil Vicente FC | CD Santa Clara
+    (21,6,3), -- Vitoria SC | SC Braga
+    (21,18,7), -- FC Pacos de Ferreira | Portimonense SC
+    (21,17,11), -- CS Maritimo | GD Estoril Praia
+    -- vigésima-primeira jornada
+    (22,8,17), -- Arouca FC | CS Maritimo
+    (22,13,9), -- FC Vizela | Gil Vicente FC
+    (22,16,6), -- B SAD | Vitoria SC
+    (22,14,12), -- FC Famalicao | Moreirense FC
+    (22,11,4), -- GD Estoril Praia | CD Tondela
+    (22,1,15), -- SL Benfica | CD Santa Clara
+    (22,7,10), -- Portimonense SC | Boavista FC
+    (22,3,18), -- SC Braga | FC Pacos de Ferreira
+    (22,2,5), -- FC Porto | Sporting CP
+    -- vigésima-segunda jornada
+    (23,15,7), -- CD Santa Clara | Portimonense SC
+    (23,4,3), -- CD Tondela | SC Braga
+    (23,12,2), -- Moreirense FC | FC Porto
+    (23,5,11), -- Sporting CP | GD Estoril Praia
+    (23,17,14), -- CS Maritimo | FC Famalicao
+    (23,6,8), -- Vitoria SC | Arouca FC
+    (23,18,13), -- FC Pacos de Ferreira | FC Vizela
+    (23,9,16), -- Gil Vicente FC | B SAD
+    (23,10,1), -- Boavista FC | SL Benfica
+    -- vigésima-terceira jornada
+    (24,3,15), -- SC Braga | CD Santa Clara
+    (24,2,9), -- FC Porto | Gil Vicente FC
+    (24,1,6), -- SL Benfica | Vitoria SC
+    (24,11,10), -- GD Estoril Praia | Boavista FC
+    (24,13,7), -- FC Vizela | Portimonense SC
+    (24,8,12), -- Arouca FC | Moreirense FC
+    (24,17,5), -- CS Maritimo | Sporting CP
+    (24,14,4), -- FC Famalicao | CD Tondela
+    (24,16,18), -- B SAD | FC Pacos de Ferreira
+    -- vigésima-quarta jornada
+    (25,4,16), -- CD Tondela | B SAD
+    (25,15,13), -- CD Santa Clara | FC Vizela
+    (25,6,14), -- Vitoria SC | FC Famalicao
+    (25,18,2), -- FC Pacos de Ferreira | FC Porto
+    (25,12,17), -- Moreirense FC | CS Maritimo
+    (25,5,8), -- Sporting CP | Arouca FC
+    (25,7,1), -- Portimonense SC | SL Benfica
+    (25,10,3), -- Boavista FC | SC Braga
+    (25,9,11), -- Gil Vicente FC | GD Estoril Praia
+    -- vigésima-quinta jornada
+    (26,12,5), -- Moreirense FC | Sporting CP
+    (26,3,9), -- SC Braga | Gil Vicente FC
+    (26,2,4), -- FC Porto | CD Tondela
+    (26,17,6), -- CS Maritimo | Vitoria SC
+    (26,16,10), -- B SAD | Boavista FC
+    (26,8,18), -- Arouca FC | FC Pacos de Ferreira
+    (26,11,7), -- GD Estoril Praia | Portimonense SC
+    (26,14,15), -- FC Famalicao | CD Santa Clara
+    (26,1,13), -- SL Benfica | FC Vizela
+    -- vigésima-sexta jornada
+    (27,10,2), -- Boavista FC | FC Porto
+    (27,7,3), -- Portimonense SC | SC Braga
+    (27,1,11), -- SL Benfica | GD Estoril Praia
+    (27,9,17), -- Gil Vicente FC | CS Maritimo
+    (27,18,12), -- FC Pacos de Ferreira | Moreirense FC
+    (27,6,5), -- Vitoria SC | Sporting CP
+    (27,15,16), -- CD Santa Clara | B SAD
+    (27,4,8), -- CD Tondela | Arouca FC
+    (27,13,14), -- FC Vizela | FC Famalicao
+    -- vigésima-sétima jornada
+    (28,2,15), -- FC Porto | CD Santa Clara
+    (28,5,18), -- Sporting CP | FC Pacos de Ferreira
+    (28,12,6), -- Moreirense FC | Vitoria SC
+    (28,17,4), -- CS Maritimo | CD Tondela
+    (28,14,10), -- FC Famalicao | Boavista FC
+    (28,8,9), -- Arouca FC | Gil Vicente FC
+    (28,11,13), -- GD Estoril Praia | FC Vizela
+    (28,16,7), -- B SAD | Portimonense SC
+    (28,3,1), -- SC Braga | SL Benfica
+    -- vigésima-oitava jornada
+    (29,13,3), -- FC Vizela | SC Braga
+    (29,6,2), -- Vitoria SC | FC Porto
+    (29,7,14), -- Portimonense SC | FC Famalicao
+    (29,15,11), -- CD Santa Clara | GD Estoril Praia
+    (29,4,5), -- CD Tondela | Sporting CP
+    (29,1,16), -- SL Benfica | B SAD
+    (29,10,8), -- Boavista FC | Arouca FC
+    (29,18,17), -- FC Pacos de Ferreira | CS Maritimo
+    (29,9,12), -- Gil Vicente FC | Moreirense FC
+    -- vigésima-nona jornada
+    (30,11,3), -- GD Estoril Praia | SC Braga
+    (30,5,1), -- Sporting CP | SL Benfica
+    (30,2,7), -- FC Porto | Portimonense SC
+    (30,16,13), -- B SAD | FC Vizela
+    (30,17,10), -- CS Maritimo | Boavista FC
+    (30,12,4), -- Moreirense FC | CD Tondela
+    (30,6,18), -- Vitoria SC | FC Pacos de Ferreira
+    (30,14,9), -- FC Famalicao | Gil Vicente FC
+    (30,8,15), -- Arouca FC | CD Santa Clara
+    -- trigésima jornada
+    (31,10,5), -- Boavista FC | Sporting CP
+    (31,3,2), -- SC Braga | FC Porto
+    (31,4,6), -- CD Tondela | Vitoria SC
+    (31,11,16), -- GD Estoril Praia | B SAD
+    (31,9,18), -- Gil Vicente FC | FC Pacos de Ferreira
+    (31,1,14), -- SL Benfica | FC Famalicao
+    (31,15,17), -- CD Santa Clara | CS Maritimo
+    (31,7,12), -- Portimonense SC | Moreirense FC
+    (31,13,8), -- FC Vizela | Arouca FC
+    -- trigésima-primeira jornada
+    (32,18,4), -- FC Pacos de Ferreira | CD Tondela
+    (32,5,9), -- Sporting CP | Gil Vicente FC
+    (32,12,10), -- Moreirense FC | Boavista FC
+    (32,6,15), -- Vitoria SC | CD Santa Clara
+    (32,16,3), -- B SAD | SC Braga
+    (32,2,13), -- FC Porto | FC Vizela
+    (32,17,1), -- CS Maritimo | SL Benfica
+    (32,8,7), -- Arouca FC | Portimonense SC
+    (32,14,11), -- FC Famalicao | GD Estoril Praia
+    -- trigésima-segunda jornada
+    (33,16,14), -- B SAD | FC Famalicao
+    (33,15,18), -- CD Santa Clara | FC Pacos de Ferreira
+    (33,3,8), -- SC Braga | Arouca FC
+    (33,9,4), -- Gil Vicente FC | CD Tondela
+    (33,13,17), -- FC Vizela | CS Maritimo
+    (33,7,5), -- Portimonense SC | Sporting CP
+    (33,1,2), -- SL Benfica | FC Porto
+    (33,11,12), -- GD Estoril Praia | Moreirense FC
+    (33,10,6), -- Boavista FC | Vitoria SC
+    -- trigésima-terceira jornada
+    (34,6,9), -- Vitoria SC | Gil Vicente FC
+    (34,14,3), -- FC Famalicao | SC Braga
+    (34,5,15), -- Sporting CP | CD Santa Clara
+    (34,2,11), -- FC Porto | GD Estoril Praia
+    (34,17,7), -- CS Maritimo | Portimonense SC
+    (34,8,16), -- Arouca FC | B SAD
+    (34,12,13), -- Moreirense FC | FC Vizela
+    (34,4,10), -- CD Tondela | Boavista FC
+    (34,18,1), -- FC Pacos de Ferreira | SL Benfica
+    -- trigésima-quarta jornada
 
 --SL Benfica--
 
