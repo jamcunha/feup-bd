@@ -1186,4 +1186,55 @@ INSERT INTO Golo (idJogo, minuto, equipaMarc, idJogador) VALUES
     (8,50,18,681), -- FC Pacos Ferreira | Nuno Santos
     (9,3,9,349), -- Gil Vicente FC | Fran Navarro
     (9,24,9,349), -- Gil Vicente FC | Fran Navarro
-    (9,56,9,356); -- Gil Vicente FC | Samuel Lino
+    (9,56,9,356), -- Gil Vicente FC | Samuel Lino
+
+    (11,38,4,154), -- CD Tondela | J.Pedro
+    (11,51,13,493), -- FC Vizela | Kiko Bondoso
+    (11,97,13,500), -- FC Vizela | Schettine G.
+    (12,38,1,27), -- SL Benfica | Waldschmidt L.
+    (12,44,1,33), -- SL Benfica | Yaremchuk R.
+    (13,40,5,200), -- Sporting CP | Cabral J.
+    (13,50,5,201), -- Sporting CP | Pedro Goncalves
+    (13,92,3,118), -- SC Braga | Ruiz A.
+    (14,59,9,356), -- Gil Vicente FC | Lino S.
+    (15,13,2,76), -- FC Porto | Martinez T.
+    (15,43,2,76), -- FC Porto | Martinez T.
+    (15,55,14,515), -- FC Famalicao | Riccieli
+    (16,58,15,563), -- CD Santa Clara | Carvalho C.
+    (16,89,12,461), -- Moreirense FC | Yan
+    (16,99,15,563), -- CD Santa Clara | Carvalho C.
+    (16,100,12,458), -- Moreirense FC | Andre Luis
+    (17,19,10,387), -- Boavista FC | Njie Y.
+    (17,60,10,375), -- Boavista FC | Garcia J.
+    (17,78,10,389), -- Boavista FC | De Santis J.
+    (18,13,17,656), -- CS Maritimo | Vidigal A.
+    (18,15,17,653), -- CS Maritimo | Alipour A.
+    (18,45,16,621), -- B SAD | Ndour A.
+
+    (19,23,14,550), -- FC Famalicao | Bruno Rodrigues
+    (19,66,8,298), -- Arouca FC | Joao Basso
+    (19,89,8,313), -- Arouca FC | Silva L.
+    (20,39,3,127), -- SC Braga | Martins F.
+    (20,41,3,122), -- SC Braga | Medeiros I.
+    (20,80,12,441), -- Moreirense FC | Vitoria S.
+    (20,83,12,438), -- Moreirense FC | Paulinho
+    (20,95,3,121), -- SC Braga | Horta R.
+    (21,83,1,7), -- SL Benfica | Lucas Verissimo
+    (21,88,1,14), -- SL Benfica | Grimaldo A.
+    (22,7,5,180), -- Sporting CP | Goncalo Inacio
+    (22,48,5,187), -- Sporting CP | Palhinha J.
+    (23,35,7,280), -- Portimonense SC | Beto
+    (23,45,7,278), -- Portimonense SC | Boa Morte A.
+    (23,80,7,263), -- Portimonense SC | Cande F.
+    (24,35,2,80), -- FC Porto | Diaz L.
+    (24,45,17,644), -- CS Maritimo | Xadas
+    (25,70,6,233), -- Vitoria SC | Andre
+    (25,75,6,243), -- Vitoria SC | Estupinan O.
+    (25,83,6,233), -- Vitoria SC | Edwards M.
+    (25,95,6,214), -- Vitoria SC | Sacko F.
+    (26,30,18,663), -- FC Pacos de Ferreira | Delgado J.
+    (26,45,11,417), -- GD Estoril Praia | Lourenco B.
+    (26,78,11,416), -- GD Estoril Praia | Franco A.
+    (27,81,11,408), -- GD Estoril Praia | Joaozinho
+    (27,31,10,371), -- Boavista FC | Hamache Y.
+    (27,47,10,385); -- Boavista FC | Gustavo Sauer
