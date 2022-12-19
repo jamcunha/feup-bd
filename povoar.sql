@@ -395,7 +395,7 @@ INSERT INTO Jogo (numJornada, equipaVisitada, equipaVisitante) VALUES
     (34,8,16), -- Arouca FC | B SAD
     (34,12,13), -- Moreirense FC | FC Vizela
     (34,4,10), -- CD Tondela | Boavista FC
-    (34,18,1), -- FC Pacos de Ferreira | SL Benfica
+    (34,18,1); -- FC Pacos de Ferreira | SL Benfica
     -- trigésima-quarta jornada
 
 --SL Benfica--
