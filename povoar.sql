@@ -1237,4 +1237,8 @@ INSERT INTO Golo (idJogo, minuto, equipaMarc, idJogador) VALUES
     (26,78,11,416), -- GD Estoril Praia | Franco A.
     (27,81,11,408), -- GD Estoril Praia | Joaozinho
     (27,31,10,371), -- Boavista FC | Hamache Y.
+<<<<<<< HEAD
     (27,47,10,385); -- Boavista FC | Gustavo Sauer
+=======
+    (27,47,10,385); -- Boavista FC | Gustavo Sauer
+>>>>>>> refs/remotes/origin/master
