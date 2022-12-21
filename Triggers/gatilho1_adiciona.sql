@@ -73,7 +73,7 @@ BEGIN
 	numVitoria = numVitoria + (CASE WHEN new.equipaVisitada = new.Vencedor THEN 1 ELSE 0 END) - (CASE WHEN new.equipaVisitada = old.Vencedor THEN 1 ELSE 0 END),
 	numEmpate = numEmpate + (CASE WHEN new.Vencedor IS Null THEN 1 ELSE 0 END) - (CASE WHEN old.Vencedor IS Null THEN 1 ELSE 0 END), 
 	numDerrota = numDerrota + (CASE WHEN new.equipaVisitante = new.Vencedor  THEN 1 ELSE 0 END) - (CASE WHEN new.equipaVisitante = old.Vencedor  THEN 1 ELSE 0 END),
-	diferencaGolos = -(SELECT count(*) as Golos FROM Golo JOIN Jogo ON Golo.idJogo=Jogo.idJogo WHERE Jogo.numJornada<=new.numJornada AND Golo.equipaMarc!=new.equipaVisitada AND (Jogo.equipaVisitante=new.equipaVisitada OR Jogo.equipaVisitada=new.equipaVisitada)) + (SELECT count(*) as Golos FROM Golo JOIN Jogo ON Golo.idJogo=Jogo.idJogo WHERE Jogo.numJornada<=new.numJornada AND Golo.equipaMarc=new.equipaVisitada )
+	diferencaGolos = diferencaGolos + (-(SELECT count(*) as Golos FROM Golo JOIN Jogo ON Golo.idJogo=Jogo.idJogo WHERE Jogo.numJornada<=new.numJornada AND Golo.equipaMarc!=new.equipaVisitada AND (Jogo.equipaVisitante=new.equipaVisitada OR Jogo.equipaVisitada=new.equipaVisitada)) + (SELECT count(*) as Golos FROM Golo JOIN Jogo ON Golo.idJogo=Jogo.idJogo WHERE Jogo.numJornada<=new.numJornada AND Golo.equipaMarc=new.equipaVisitada ) - (SELECT diferencaGolos FROM Classificacao WHERE numJornada=new.numJornada AND idEquipa=new.equipaVisitada))
 	WHERE new.equipaVisitada = Classificacao.idEquipa AND Classificacao.numJornada>=new.numJornada;
 	
 	
@@ -82,7 +82,7 @@ BEGIN
 	numVitoria = numVitoria + (CASE WHEN new.equipaVisitante = new.Vencedor THEN 1 ELSE 0 END) - (CASE WHEN new.equipaVisitante = old.Vencedor THEN 1 ELSE 0 END),
 	numEmpate = numEmpate + (CASE WHEN new.Vencedor IS Null THEN 1 ELSE 0 END) - (CASE WHEN old.Vencedor IS Null THEN 1 ELSE 0 END), 
 	numDerrota = numDerrota + (CASE WHEN new.equipaVisitada = new.Vencedor  THEN 1 ELSE 0 END) - (CASE WHEN new.equipaVisitada = old.Vencedor  THEN 1 ELSE 0 END),
-	diferencaGolos = -(SELECT count(*) as Golos FROM Golo JOIN Jogo ON Golo.idJogo=Jogo.idJogo WHERE Jogo.numJornada<=new.numJornada AND Golo.equipaMarc!=new.equipaVisitante AND (Jogo.equipaVisitante=new.equipaVisitante OR Jogo.equipaVisitada=new.equipaVisitante)) + (SELECT count(*) as Golos FROM Golo JOIN Jogo ON Golo.idJogo=Jogo.idJogo WHERE Jogo.numJornada<=new.numJornada AND Golo.equipaMarc=new.equipaVisitante )
+	diferencaGolos = diferencaGolos +( -(SELECT count(*) as Golos FROM Golo JOIN Jogo ON Golo.idJogo=Jogo.idJogo WHERE Jogo.numJornada<=new.numJornada AND Golo.equipaMarc!=new.equipaVisitante AND (Jogo.equipaVisitante=new.equipaVisitante OR Jogo.equipaVisitada=new.equipaVisitante)) + (SELECT count(*) as Golos FROM Golo JOIN Jogo ON Golo.idJogo=Jogo.idJogo WHERE Jogo.numJornada<=new.numJornada AND Golo.equipaMarc=new.equipaVisitante ) - (SELECT diferencaGolos FROM Classificacao WHERE numJornada=new.numJornada AND idEquipa=new.equipaVisitante))
 	WHERE new.equipaVisitante = Classificacao.idEquipa AND Classificacao.numJornada>=new.numJornada;
 	
 		

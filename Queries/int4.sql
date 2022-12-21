@@ -2,6 +2,9 @@
 .headers on
 .nullvalue NULL
 
+
+--Máximo de Golos por Jornada em Cada Jogo
+
 SELECT C.Jornada, C.idJogo, Max(C.Golos) Golos, C.Visitada, C.Visitante
   FROM (SELECT J.numJornada Jornada, J.idJogo idJogo, count(*) Golos, EC.nome Visitada, EF.nome Visitante
 	   FROM Jogo J
