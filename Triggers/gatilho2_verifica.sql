@@ -39,3 +39,7 @@ INSERT INTO GOLO (idJogo, minuto, equipaMarc, idJogador) VALUES (3,33,12,460); -
 .print ''
 .print 'Verificamos que o vencedor do jogo entre o Benfica e o Moreirense (idJogo = 3) deixa de ser null e passa a ter o idEquipa do Moreirense (12)'
 .print ''
+
+SELECT *
+  FROM Jogo J
+  WHERE J.numJornada=1;
