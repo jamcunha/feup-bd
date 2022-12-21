@@ -39,15 +39,11 @@ CREATE TABLE Jogador (
 CREATE TABLE Classificacao(
     idEquipa INTEGER REFERENCES Equipa(idEquipa),
     numJornada INTEGER REFERENCES Jornada(num) CHECK(numJornada > 0 AND numJornada <= 34),
-    pontos INTEGER,-- NOT NULL CHECK(pontos >= 0 AND pontos = 3*numVitoria + numEmpate),
-   -- posicao INTEGER NOT NULL CHECK(posicao >= 1 AND posicao <= 18),
-   -- numJogos INTEGER NOT NULL CHECK(numJogos >= 0 AND numJogos <= 34 AND numJogos = numVitoria + numEmpate + numDerrota),
-    numVitoria INTEGER,-- NOT NULL CHECK(numVitoria >= 0), --AND numVitoria <= numJogos - numEmpate - numDerrota),
-    numEmpate INTEGER,-- NOT NULL CHECK(numEmpate >= 0), --AND numEmpate <= numJogos - numVitoria - numDerrota),
-    numDerrota INTEGER,-- NOT NULL CHECK(numDerrota >= 0), -- AND numDerrota <= numJogos - numVitoria - numEmpate),
-    diferencaGolos,-- INTEGER NOT NULL,
---    tipoCondicao VARCHAR(4) CHECK(tipoCondicao = "LCFG" OR tipoCondicao = "LCTE" OR tipoCondicao = "CLTE"
- --       OR tipoCondicao = "CLSE" OR tipoCondicao = "DPPO" OR tipoCondicao = "DPDI"),
+    pontos INTEGER NOT NULL CHECK(pontos >= 0),
+    numVitoria INTEGER NOT NULL CHECK(numVitoria >= 0), 
+    numEmpate INTEGER NOT NULL CHECK(numEmpate >= 0),
+    numDerrota INTEGER NOT NULL CHECK(numDerrota >= 0), 
+    diferencaGolos INTEGER NOT NULL,
     CONSTRAINT pk_equipa_jornada PRIMARY KEY(idEquipa, numJornada)
 );
 
