@@ -1249,7 +1249,7 @@ INSERT INTO Golo (idJogo, minuto, equipaMarc, idJogador) VALUES
     (31,24,2,66), -- FC Porto | Uribe M.
     (31,34,2,75), -- FC Porto | Taremi M.
     (31,63,2,52), -- FC Porto | Marcano I.
-    (32,68,14,539), -- FC Famalicao | Nuno Mendes    ---> AUTO-GOLO <---
+    (32,68,14,539), -- FC Famalicao | Nuno Mendes
     (32,82,5,187), -- Sporting CP | Palhinha J.
     (33,22,4,166), -- CD Tondela | Agra S.
     (33,71,1,41), -- SL Benfica | Rafa Silva
@@ -1331,5 +1331,67 @@ INSERT INTO Golo (idJogo, minuto, equipaMarc, idJogador) VALUES
     (62,9,2,75), -- FC Porto | Taremi M.
     (62,24,9,356), -- Gil Vicente FC | Lino S.
     (62,89,2,68), -- FC Porto | Oliveira S.
-    (63,98,5,174); -- Sporting CP | Porro P.
+    (63,98,5,174), -- Sporting CP | Porro P.
     -- sétima jornada
+    (64,12,10,386), -- Boavista FC | Musa P.
+    (64,25,3,122), -- SC Braga | Medeiros I.
+    (64,52,3,121), -- SC Braga | Horta R.
+    (64,89,10,387), -- Boavista FC | Njie Y.
+    (65,66,7,258), -- Portimonense SC | Possignolo L.
+    (66,11,11,426), -- GD Estoril Praia | Fonte R.
+    (66,42,9,356), -- Gil Vicente FC | Lino S.
+    (66,45,11,416), -- GD Estoril Praia | Franco A.
+    (66,50,9,349), -- Gil Vicente FC | Navarro F.
+    (67,3,4,149), -- CD Tondela | Pedro Augusto
+    (67,64,4,158), -- CD Tondela | Murillo J.
+    (68,16,5,191), -- Sporting CP | Matheus Nunes
+    (68,51,8,324), -- Arouca FC | Dabbagh O.
+    (68,54,5,200), -- Sporting CP | Nuno Santos
+    (69,19,18,681), -- FC Pacos de Ferreira | Nuno Santos
+    (69,43,2,80), -- FC Porto | Diaz L.
+    (69,52,2,59), -- FC Porto | Wendell
+    (70,73,15,577), -- CD Santa Clara | Patric J.
+    (70,97,13,495), -- FC Vizela | Cassiano
+    (71,5,14,543), -- FC Famalicao | Banza S.
+    (71,34,6,243), -- Vitoria SC | Estupinan O.
+    (71,59,6,241), -- Vitoria SC | Edwards M.
+    -- oitava jornada
+    (74,4,3,120), -- SC Braga | Vitinha
+    (75,59,11,416), -- GD Estoril Praia | Franco A.
+    (75,71,11,417), -- GD Estoril Praia | Lourenco B.
+    (76,98,1,41), -- SL Benfica | Rafa Silva
+    (78,15,5,178), -- Sporting CP | Coates S.
+    (79,4,4,145), -- CD Tondela | Neto Borges
+    (79,19,2,75), -- FC Porto | Taremi M.
+    (79,43,2,75), -- FC Porto | Taremi M.
+    (79,79,2,75), -- FC Porto | Taremi M.
+    (80,44,14,543), -- FC Famalicao | Banza S.
+    (80,54,14,543), -- FC Famalicao | Banza S.
+    (81,76,6,243), -- Vitoria SC | Estupinan O.
+    (81,89,17,629), -- CS Maritimo | Claudio Winck
+    (81,91,6,246), -- Vitoria SC | Rochinha
+    -- nona jornada
+    (82,64,18,695), -- FC Pacos de Ferreira | Lucas Silva
+    (82,86,12,458), -- Moreirense FC | Andre Luis
+    (83,5,3,131), -- SC Braga | Galeno
+    (83,53,3,131), -- SC Braga | Galeno
+    (83,91,3,124), -- SC Braga | Gonzalez M.
+    (84,82,13,500), -- FC Vizela | Schettine G.
+    (84,98,14,516), -- FC Famalicao | Batubinsika D.
+    (85,43,16,622), -- B SAD | Safira
+    (85,90,15,575), -- CD Santa Clara | Allano
+    (85,93,16,614), -- B SAD | Pedro N.
+    (86,28,9,343), -- Gil Vicente FC | Fujimoto K.
+    (86,45,17,644), -- CS Maritimo | Xadas
+    (86,67,9,334), -- Gil Vicente FC | Ferrugem
+    (87,31,5,178), -- Sporting CP | Coates S.
+    (88,2,1,7), -- SL Benfica | Lucas Verissimo
+    (88,90,11,412), -- GD Estoril Praia | Rosier L.
+    (89,20,2,80), -- FC Porto | Diaz L.
+    (89,29,10,371), -- Boavista FC | Hamache Y.
+    (89,41,2,77), -- FC Porto | Evanilson
+    (89,46,2,77), -- FC Porto | Evanilson
+    (89,95,2,79), -- FC Porto | Loader D.
+    (90,31,8,298), -- Arouca FC | Joao Basso
+    (90,68,8,315); -- Arouca FC | Bukia A.
+    -- décima jornada
