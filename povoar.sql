@@ -1306,5 +1306,30 @@ INSERT INTO Golo (idJogo, minuto, equipaMarc, idJogador) VALUES
     (52,92,9,344), -- Gil Vicente FC | Aburjania G.
     (54,10,7,282), -- Portimonense SC | Aponza W.
     (54,19,15,581), -- CD Santa Clara | Costa R.
-    (54,43,7,270); -- Portimonense SC | Lucas Fernandes
+    (54,43,7,270), -- Portimonense SC | Lucas Fernandes
     -- sexta jornada
+    (55,24,10,385), -- Boavista FC | Gustavo Sauer
+    (55,71,11,416), -- GD Estoril Praia | Franco A.
+    (56,12,18,681), -- FC Pacos de Ferreira | Nuno Santos
+    (56,20,18,693), -- FC Pacos de Ferreira | Ferreira H.
+    (56,60,16,621), -- B SAD | Ndour A.
+    (56,76,16,622), -- B SAD | Safira
+    (58,71,3,88), -- SC Braga | Oliveira P.
+    (58,95,15,565), -- CD Santa Clara | Lincoln
+    (59,33,4,158), -- CD Tondela | Murillo J.
+    (59,40,14,549), -- FC Famalicao | Jaime I.
+    (59,50,14,534), -- FC Famalicao | Marin A.
+    (59,78,4,160), -- CD Tondela | Boselli J.
+    (59,84,4,163), -- CD Tondela | Dadashov R.
+    (60,30,1,33), -- SL Benfica | Yaremchuk R.
+    (60,41,1,33), -- SL Benfica | Yaremchuk R.
+    (60,73,1,23), -- SL Benfica | João Mário
+    (60,78,6,242), -- Vitoria SC | Duarte B.
+    (61,29,12,456), -- Moreirense FC | Walterson Silva
+    (61,64,12,458), -- Moreirense FC | Andre Luis
+    (61,82,8,322), -- Arouca FC | Andre Silva
+    (62,9,2,75), -- FC Porto | Taremi M.
+    (62,24,9,356), -- Gil Vicente FC | Lino S.
+    (62,89,2,68), -- FC Porto | Oliveira S.
+    (63,98,5,174); -- Sporting CP | Porro P.
+    -- sétima jornada
