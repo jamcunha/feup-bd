@@ -9,35 +9,6 @@ AFTER INSERT ON Jogo
 FOR EACH ROW
 BEGIN
 
-		--INSERT INTO Classificacao (idEquipa, numJornada, pontos, numVitoria, numEmpate, numDerrota, diferencaGolos)
-		--	SELECT 	N.equipaVisitante,
-		--		N.numJornada,
-		--		ifnull(C.pontos,0)+CASE WHEN new.equipaVisitante = new.Vencedor 
-		--					     THEN 3 
-		--					WHEN new.Vencedor IS NUll
-		--					     THEN 1 
-		--					ELSE 0
-		--				   END,
-		--		ifnull(C.pontos,0)+CASE WHEN new.equipaVisitante = new.Vencedor 
-		--					     THEN 3 
-		--					WHEN new.Vencedor IS NUll
-		--					     THEN 1 
-		--					ELSE 0
-		--				   END,	
-		--		diferencaGolos + golosmarcados do new - golos sofridos do new diferencaGolos	   
-		--				   
-		--	  FROM new N
-		--	  LEFT JOIN Classificacao C ON N.equipaVisitante = C.idEquipa
-		--	  			   AND N.numJornada-1 = C.numJornada
-		--        LEFT JOIN (SELECT  G.equipaMarc,
-		--			     G.idJogo,
-		--			     count(*)
-		--			FROM Golo G
-		--			GROUP BY G.equipaMarc,
-		--				 G.idJogo
-		--		    ) G ON N.idJogo = G.idJogo,
-		--		    	   N.equipaVisitante = G.equipaMarc
-				    	   
 					
 			  			   	
 		

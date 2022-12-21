@@ -27,4 +27,4 @@ FROM (	(SELECT Jornada, Equipa, Posicao, Pontos
 		   )
 	WHERE Posicao = 2) S ON P.Jornada=S.Jornada
 	)
- WHERE P.Pontos > S.Pontos+3*(34-S.Jornada)
+ WHERE P.Pontos >= S.Pontos+3*(34-S.Jornada)
