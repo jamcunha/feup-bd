@@ -4,7 +4,7 @@
 
 --Apartir de que jornada um clube já não consegue chegar a certa posicão
 
-SELECT MIN(P.Jornada), P.Equipa, P.Pontos
+SELECT MIN(P.Jornada) Jornada, P.Equipa, P.Pontos
 FROM (	(SELECT Jornada, Equipa, Posicao, Pontos
 	FROM( SELECT 	C.numJornada 								 	  Jornada, 
 			E.nome 										  Equipa, 

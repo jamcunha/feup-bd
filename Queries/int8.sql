@@ -5,16 +5,16 @@
 
 --Comentar um deles
 
-SELECT Nome, Max(Golos) "Melhor Ataque"
-  FROM(
-	SELECT E.nome Nome, 
-	       Count(*) Golos
-	   FROM Jogo J
-	   JOIN Golo G ON G.idJogo=J.idJogo 
-	   JOIN Equipa E ON E.idEquipa=G.equipaMarc
-	   WHERE J.numJornada<=34
-	   GROUP BY E.nome
-	)
+--SELECT Nome, Max(Golos) "Melhor Ataque"
+  --FROM(
+	--SELECT E.nome Nome, 
+	  --     Count(*) Golos
+	  -- FROM Jogo J
+	  -- JOIN Golo G ON G.idJogo=J.idJogo 
+	  -- JOIN Equipa E ON E.idEquipa=G.equipaMarc
+	  -- WHERE J.numJornada<=34
+	  -- GROUP BY E.nome
+--	)
 
 	
 	
