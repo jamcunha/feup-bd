@@ -20,3 +20,7 @@ SELECT "Total", ROUND(Count(*)/34.0,2) "Media Golos"
    
    
 ORDER BY "Media Golos" DESC, Nome
+
+
+
+

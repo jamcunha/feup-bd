@@ -16,7 +16,7 @@ SELECT C.*
 		       G.idJogador idJogador
 		  FROM Golo G 
 		  JOIN Jogo J ON J.idJogo=G.idJogo
-		  WHERE J.numJornada<=1
+		  WHERE J.numJornada<=34
 		  GROUP BY G.idJogador
 	       ) C   
        ) M
@@ -27,7 +27,7 @@ SELECT C.*
   	  JOIN Equipa ON Jogador.idEquipa=Equipa.idEquipa 
           JOIN Golo ON Jogador.idJogador=Golo.idJogador
           JOIN Jogo ON Jogo.idJogo=Golo.idJogo
-  	  WHERE Jogo.numJornada<=1
+  	  WHERE Jogo.numJornada<=34
           GROUP BY Jogador.nome
        ) C ON  M.Golos = C.Golos      
 
