@@ -1302,7 +1302,7 @@ INSERT INTO Golo (idJogo, minuto, equipaMarc, idJogador) VALUES
     (51,71,6,232), -- Vitoria SC | Tiago Silva
     (51,74,8,324), -- Arouca FC | Dabbagh O.
     (51,92,8,308), -- Arouca FC | Pite
-    (52,83,16,326), -- B SAD | Frelih Z.
+    (52,83,16,622), -- B SAD | Safira
     (52,92,9,344), -- Gil Vicente FC | Aburjania G.
     (54,10,7,282), -- Portimonense SC | Aponza W.
     (54,19,15,581), -- CD Santa Clara | Costa R.
