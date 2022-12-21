@@ -1255,5 +1255,30 @@ INSERT INTO Golo (idJogo, minuto, equipaMarc, idJogador) VALUES
     (33,71,1,41), -- SL Benfica | Rafa Silva
     (33,88,1,5), -- SL Benfica | Gilberto
     (35,45,18,692), -- FC Pacos de Ferreira | Tanque D.
-    (36,12,15,581); -- CD Santa Clara | Costa R.
+    (36,12,15,581), -- CD Santa Clara | Costa R.
     -- quarta jornada
+    (38,42,1,34), -- SL Benfica | Pinho R.
+    (38,54,1,31), -- SL Benfica | Nunez D.
+    (38,58,1,41), -- SL Benfica | Rafa Silva
+    (38,62,1,31), -- SL Benfica | Nunez D.
+    (38,68,1,33), -- SL Benfica | Yaremchuk R.
+    (39,16,5,200), -- Sporting CP | Nuno Santos
+    (39,71,2,80), -- FC Porto | Diaz L.
+    (40,11,12,460), -- Moreirense FC | Rafael Martins
+    (40,20,14,543), -- FC Famalicao | Banza S.
+    (40,47,14,543), -- FC Famalicao | Banza S.
+    (40,71,12,458), -- Moreirense FC | Andre Luis
+    (41,45,7,271), -- Portimonense SC | Carlinhos
+    (41,92,10,386), -- Boavista FC | Musa P.
+    (42,24,13,482), -- FC Vizela | Paulo M.
+    (42,61,9,349), -- Gil Vicente FC | Navarro F.
+    (42,73,13,482), -- FC Vizela | Paulo M.
+    (42,90,9,349), -- Gil Vicente FC | Navarro F.
+    (44,8,8,315), -- Arouca FC | Bukia A.
+    (44,35,17,654), -- CS Maritimo | Ricardinho
+    (44,45,17,653), -- CS Maritimo | Alipour A.
+    (44,82,8,322), -- Arouca FC | Andre Silva
+    (45,20,11,429), -- GD Estoril Praia | Chiquinho
+    (45,44,11,427), -- GD Estoril Praia | Ruiz L.
+    (45,51,4,160); -- CD Tondela | Boselli J.
+    -- quinta jornada
