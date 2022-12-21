@@ -1187,7 +1187,7 @@ INSERT INTO Golo (idJogo, minuto, equipaMarc, idJogador) VALUES
     (9,3,9,349), -- Gil Vicente FC | Fran Navarro
     (9,24,9,349), -- Gil Vicente FC | Fran Navarro
     (9,56,9,356), -- Gil Vicente FC | Samuel Lino
-    
+    -- primeira jornada
     (11,38,4,154), -- CD Tondela | J.Pedro
     (11,51,13,493), -- FC Vizela | Kiko Bondoso
     (11,97,13,500), -- FC Vizela | Schettine G.
@@ -1210,7 +1210,7 @@ INSERT INTO Golo (idJogo, minuto, equipaMarc, idJogador) VALUES
     (18,13,17,656), -- CS Maritimo | Vidigal A.
     (18,15,17,653), -- CS Maritimo | Alipour A.
     (18,45,16,621), -- B SAD | Ndour A.
-    
+    -- segunda jornada
     (19,23,14,550), -- FC Famalicao | Bruno Rodrigues
     (19,66,8,298), -- Arouca FC | Joao Basso
     (19,89,8,313), -- Arouca FC | Silva L.
@@ -1237,14 +1237,48 @@ INSERT INTO Golo (idJogo, minuto, equipaMarc, idJogador) VALUES
     (26,78,11,416), -- GD Estoril Praia | Franco A.
     (26,81,11,408), -- GD Estoril Praia | Joaozinho
     (27,31,10,371), -- Boavista FC | Hamache Y.
-    (27,47,10,385); -- Boavista FC | Gustavo Sauer
-
-
-    
-    
-  
-    
-
-
-
-   
+    (27,47,10,385), -- Boavista FC | Gustavo Sauer
+    -- terceira jornada
+    (28,29,16,601), -- B SAD | Akas C.
+    (28,86,12,458), -- Moreirense FC | Andre Luis
+    (29,28,11,430), -- GD Estoril Praia | Crespo M.
+    (29,44,17,629), -- CS Maritimo | Claudio Winck
+    (29,60,11,429), -- GD Estoril Praia | Chiquinho
+    (30,51,10,385), -- Boavista FC | Gustavo Sauer
+    (30,74,13,493), -- FC Vizela | Kouao K.
+    (31,24,2,66), -- FC Porto | Uribe M.
+    (31,34,2,75), -- FC Porto | Taremi M.
+    (31,63,2,52), -- FC Porto | Marcano I.
+    (32,68,14,539), -- FC Famalicao | Nuno Mendes    ---> AUTO-GOLO <---
+    (32,82,5,187), -- Sporting CP | Palhinha J.
+    (33,22,4,166), -- CD Tondela | Agra S.
+    (33,71,1,41), -- SL Benfica | Rafa Silva
+    (33,88,1,5), -- SL Benfica | Gilberto
+    (35,45,18,692), -- FC Pacos de Ferreira | Tanque D.
+    (36,12,15,581), -- CD Santa Clara | Costa R.
+    -- quarta jornada
+    (38,42,1,34), -- SL Benfica | Pinho R.
+    (38,54,1,31), -- SL Benfica | Nunez D.
+    (38,58,1,41), -- SL Benfica | Rafa Silva
+    (38,62,1,31), -- SL Benfica | Nunez D.
+    (38,68,1,33), -- SL Benfica | Yaremchuk R.
+    (39,16,5,200), -- Sporting CP | Nuno Santos
+    (39,71,2,80), -- FC Porto | Diaz L.
+    (40,11,12,460), -- Moreirense FC | Rafael Martins
+    (40,20,14,543), -- FC Famalicao | Banza S.
+    (40,47,14,543), -- FC Famalicao | Banza S.
+    (40,71,12,458), -- Moreirense FC | Andre Luis
+    (41,45,7,271), -- Portimonense SC | Carlinhos
+    (41,92,10,386), -- Boavista FC | Musa P.
+    (42,24,13,482), -- FC Vizela | Paulo M.
+    (42,61,9,349), -- Gil Vicente FC | Navarro F.
+    (42,73,13,482), -- FC Vizela | Paulo M.
+    (42,90,9,349), -- Gil Vicente FC | Navarro F.
+    (44,8,8,315), -- Arouca FC | Bukia A.
+    (44,35,17,654), -- CS Maritimo | Ricardinho
+    (44,45,17,653), -- CS Maritimo | Alipour A.
+    (44,82,8,322), -- Arouca FC | Andre Silva
+    (45,20,11,429), -- GD Estoril Praia | Chiquinho
+    (45,44,11,427), -- GD Estoril Praia | Ruiz L.
+    (45,51,4,160); -- CD Tondela | Boselli J.
+    -- quinta jornada
