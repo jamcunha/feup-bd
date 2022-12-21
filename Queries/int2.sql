@@ -2,18 +2,38 @@
 .headers on
 .nullvalue NULL
 
-SELECT Jogador, Equipa, Golos
-FROM(
-	SELECT Jogador.nome as Jogador, Equipa.nome AS Equipa, count(*) AS Golos
-	FROM Jogador,Equipa,Golo
-	WHERE Jogador.idEquipa = Equipa.idEquipa and Jogador.idJogador = Golo.idjogador
-	GROUP BY Jogador.nome, Equipa.nome
-	)
-WHERE Golos=(SELECT max(Golos) FROM (
-				SELECT Jogador.nome as Jogador, Equipa.nome AS Equipa, count(*) AS Golos
-				FROM Jogador,Equipa,Golo
-				WHERE Jogador.idEquipa = Equipa.idEquipa and Jogador.idJogador = Golo.idjogador
-				GROUP BY Jogador.nome, Equipa.nome));
+				
+--Melhor marcador a cada jornada
+
+--contar golos até à jornada por cada jogador
+
+--máximo do anterior
+
+SELECT C.*
+  FROM (SELECT MAX(C.Golos) Golos
+	  FROM (
+		SELECT count(*) Golos,
+		       G.idJogador idJogador
+		  FROM Golo G 
+		  JOIN Jogo J ON J.idJogo=G.idJogo
+		  WHERE J.numJornada<=1
+		  GROUP BY G.idJogador
+	       ) C   
+       ) M
+  JOIN (SELECT Jogador.nome Jogador, 
+       	       Equipa.nome Equipa,
+       	       count(*) AS Golos
+          FROM Jogador
+  	  JOIN Equipa ON Jogador.idEquipa=Equipa.idEquipa 
+          JOIN Golo ON Jogador.idJogador=Golo.idJogador
+          JOIN Jogo ON Jogo.idJogo=Golo.idJogo
+  	  WHERE Jogo.numJornada<=1
+          GROUP BY Jogador.nome
+       ) C ON  M.Golos = C.Golos      
+
+      
+
+
 
 
 

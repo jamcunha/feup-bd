@@ -97,7 +97,7 @@ INSERT INTO Jogo (numJornada, equipaVisitada, equipaVisitante) VALUES
     (4,7,18), -- Portimonese SC | FC Pacos de Ferreira
     (4,15,9), -- CD Santa Clara | Gil Vicente FC
     -- quarta jornada
-    (5,18,4), -- FC Pacos de Ferreira | SC Braga
+    (5,18,3), -- FC Pacos de Ferreira | SC Braga
     (5,15,1), -- CD Santa Clara | SL Benfica
     (5,5,2), -- Sporting CP | FC Porto
     (5,12,14), -- Moreirense FC | FC Famalicao
@@ -1187,7 +1187,7 @@ INSERT INTO Golo (idJogo, minuto, equipaMarc, idJogador) VALUES
     (9,3,9,349), -- Gil Vicente FC | Fran Navarro
     (9,24,9,349), -- Gil Vicente FC | Fran Navarro
     (9,56,9,356), -- Gil Vicente FC | Samuel Lino
-
+    
     (11,38,4,154), -- CD Tondela | J.Pedro
     (11,51,13,493), -- FC Vizela | Kiko Bondoso
     (11,97,13,500), -- FC Vizela | Schettine G.
@@ -1210,7 +1210,7 @@ INSERT INTO Golo (idJogo, minuto, equipaMarc, idJogador) VALUES
     (18,13,17,656), -- CS Maritimo | Vidigal A.
     (18,15,17,653), -- CS Maritimo | Alipour A.
     (18,45,16,621), -- B SAD | Ndour A.
-
+    
     (19,23,14,550), -- FC Famalicao | Bruno Rodrigues
     (19,66,8,298), -- Arouca FC | Joao Basso
     (19,89,8,313), -- Arouca FC | Silva L.
@@ -1235,10 +1235,16 @@ INSERT INTO Golo (idJogo, minuto, equipaMarc, idJogador) VALUES
     (26,30,18,663), -- FC Pacos de Ferreira | Delgado J.
     (26,45,11,417), -- GD Estoril Praia | Lourenco B.
     (26,78,11,416), -- GD Estoril Praia | Franco A.
-    (27,81,11,408), -- GD Estoril Praia | Joaozinho
+    (26,81,11,408), -- GD Estoril Praia | Joaozinho
     (27,31,10,371), -- Boavista FC | Hamache Y.
-<<<<<<< HEAD
     (27,47,10,385); -- Boavista FC | Gustavo Sauer
-=======
-    (27,47,10,385); -- Boavista FC | Gustavo Sauer
->>>>>>> refs/remotes/origin/master
+
+
+    
+    
+  
+    
+
+
+
+   

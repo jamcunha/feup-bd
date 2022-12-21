@@ -40,6 +40,7 @@ FROM (
 		FROM Golo G
 		JOIN Jogo J ON G.idJogo = J.idJogo
 		           AND G.equipaMarc = J.equipaVisitada
+		WHERE G.idJogo=new.idJogo
 		GROUP BY G.idJogo,
 			 G.equipaMarc
 	UNION
@@ -51,6 +52,7 @@ FROM (
 		FROM Golo G
 		JOIN JOGO J ON G.idJogo = J.idJogo
 		           AND G.equipaMarc = J.equipaVisitante
+		WHERE G.idJogo=new.idJogo
 		GROUP BY G.idJogo,
 			 G.equipaMarc	
 	) G
