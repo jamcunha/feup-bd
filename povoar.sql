@@ -1280,5 +1280,31 @@ INSERT INTO Golo (idJogo, minuto, equipaMarc, idJogador) VALUES
     (44,82,8,322), -- Arouca FC | Andre Silva
     (45,20,11,429), -- GD Estoril Praia | Chiquinho
     (45,44,11,427), -- GD Estoril Praia | Ruiz L.
-    (45,51,4,160); -- CD Tondela | Boselli J.
+    (45,51,4,160), -- CD Tondela | Boselli J.
     -- quinta jornada
+    (46,80,3,122), -- SC Braga | Medeiros I.
+    (46,83,3,121), -- SC Braga | Horta R.
+    (46,86,4,163), -- CD Tondela | Dadashov R.
+    (46,90,3,122), -- SC Braga | Medeiros I.
+    (47,14,1,31), -- SL Benfica | Nunez D.
+    (47,32,10,385), -- Boavista FC | Gustavo Sauer
+    (47,34,1,18), -- SL Benfica | Weigl J.
+    (47,61,1,31), -- SL Benfica | Nunez D.
+    (48,67,5,174), -- Sporting CP | Porro P.
+    (49,33,2,75), -- FC Porto | Taremi M.
+    (49,51,2,80), -- FC Porto | Diaz L.
+    (49,65,2,80), -- FC Porto | Diaz L.
+    (49,71,2,75), -- FC Porto | Taremi M.
+    (49,78,2,81), -- FC Porto | Pepê
+    (50,44,13,500), -- FC Vizela | Schettine G.
+    (50,50,18,686), -- FC Pacos de Ferreira | Denilson
+    (51,6,6,245), -- Vitoria SC | Quaresma R.
+    (51,71,6,232), -- Vitoria SC | Tiago Silva
+    (51,74,8,324), -- Arouca FC | Dabbagh O.
+    (51,92,8,308), -- Arouca FC | Pite
+    (52,83,16,326), -- B SAD | Frelih Z.
+    (52,92,9,344), -- Gil Vicente FC | Aburjania G.
+    (54,10,7,282), -- Portimonense SC | Aponza W.
+    (54,19,15,581), -- CD Santa Clara | Costa R.
+    (54,43,7,270); -- Portimonense SC | Lucas Fernandes
+    -- sexta jornada
