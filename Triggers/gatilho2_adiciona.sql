@@ -60,26 +60,7 @@ GROUP BY G.idJogo
 ) G
 		
 		
-		
-
---	SELECT CASE WHEN  B.Golos > A.Golos THEN Jogo.equipaVisitada WHEN B.Golos < A.Golos THEN Jogo.equipaVisitante END Vencedor
---	FROM(
---			(SELECT count(*) as Golos
---			FROM Jogo,Golo
---			WHERE Jogo.idJogo=Golo.idJogo and Jogo.equipaVisitante = Golo.equipaMarc and Golo.idJogo=new.idJogo
---			) as A 
---			,
---			(SELECT count(*) as Golos
---			FROM Jogo,Golo
---			WHERE Jogo.idJogo=Golo.idJogo and Jogo.equipaVisitada= Golo.equipaMarc and Golo.idJogo=new.idJogo
---			) as B
---			,
---			Jogo
---	)
---	WHERE Jogo.idJogo=new.idJogo
 
 ) as T 
 WHERE Jogo.idJogo=new.idJogo;
 END;
-
---update apenas se trocar de vencedor
